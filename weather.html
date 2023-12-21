@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박스에 텍스트와 이미지 배치</title>
+    <style>
+        .container {
+            width: 419px;
+            height: 233px;
+            border: 1px solid #ccc;
+            position: relative;
+            font-family: Arial, sans-serif;
+        }
+
+        .text1 {
+            position: absolute;
+            top: -9px; /* 수정된 부분: 텍스트1의 위치를 조정 */
+            left: 10px;
+        }
+
+        .text2 {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .custom-image {
+            position: absolute;
+            top: 50px; /* 수정된 부분: 이미지의 위치를 조정 */
+            left: 10px;
+            width: 100px;
+            height: 80px;
+        }
+
+        .temperature{
+            position: absolute;
+            top: 38px;
+            left:110px;
+            font-size: 22px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="text1"><h3>날씨</h3></div>
+    <div class="text2">서울시 봉천동</div>
+    <img src="images/2023-12-21%2018%2001%2009.png" alt="맑은 해" class="custom-image"> <!-- 클래스 이름 수정 -->
+    <div class="temperature"><h1>-10.1°</h1></div>
+</div>
+</body>
+</html>
