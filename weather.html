@@ -77,6 +77,13 @@
             width: 100px;
             height: 80px;
         }
+        .custom-image2{
+            position: absolute;
+            top: 70px;
+            right: 10px;
+            width: 200px;
+            height: 150px;
+        }
 
         .temperature{
             position: absolute;
@@ -91,15 +98,20 @@
 <div class="container">
     <div class="text1"><h3><a href="https://weather.naver.com/" target="_blank">날씨</a></h3></div>
     <div class="text2">서울시 봉천동</div>
-    <img src="images/2023-12-21%2018%2001%2009.png" alt="맑은 해" class="custom-image"> <!-- 클래스 이름 수정 -->
-    <div class="temperature"><h1>-10.1°</h1></div>
+    <a href="https://weather.naver.com/today/09620101?cpName=KMA " target="_blank">
+    <img src="images/2023-12-21%2018%2001%2009.png" alt="맑은 해" class="custom-image"></a> <!-- 클래스 이름 수정 -->
+    <div class="temperature"><h1><a href="https://weather.naver.com/today/09620101?cpName=KMA" target="_blank">-10.1°</a></h1></div>
     <div class="text3">맑음</div>
-    <div class="text4">-15°</div>
-    <div class="text5">-7°</div>
+    <div class="text4"><a href="https://weather.naver.com/today/09620101?cpName=KMA" target="_blank">-15°</a></div>
+    <div class="text5"><a href="https://weather.naver.com/today/09620101?cpName=KMA" target="_blank">-7°</a></div>
     <div class="text6">미세</div>
     <div class="text7">초미세</div>
-    <div class="good">좋음</div>
-    <div class="good1">좋음</div>
+    <div class="good"><a href="https://weather.naver.com/air/09620101?cpName=KMA/" target="_blank">좋음</a></div>
+    <div class="good1"><a href="https://weather.naver.com/air/09620101?cpName=KMA/" target="_blank">좋음</a></div>
+    <a href="https://weather.naver.com/today/09620101?cpName=KMA" target="_blank">
+        <img src="images/시간대별%20기상예보.png" alt="기상예보" class="custom-image2">
+    </a>
+
 </div>
 </body>
 </html>
