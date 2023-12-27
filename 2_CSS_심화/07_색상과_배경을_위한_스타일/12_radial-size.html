@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>원형 그러데이션</title>
+    <style>
+        li {
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            margin: 10px;
+        }
+
+        #div1 {
+            /* closest-side: 원형 그래디언트의 크기가 가장 가까운 면에 닿을 만큼의 크기로 설정 */
+            /* at 30% 40%: 전체 가로의 30%, 세로의 40% 지점에 원을 생성*/
+            background: radial-gradient(circle closest-side at 30% 40%, white, yellow, black);
+
+        }
+
+        #div2 {
+            /* closest-corner: 원형 그래디언트의 크기가 가장 가까운 모서리에 닿을 만큼의 크기로 설정 */
+            background: radial-gradient(circle closest-corner at 30% 40%, white, yellow, green);
+        }
+
+        #div3 {
+            /* farthest-side: 원형 그래디언트의 크기가 가장 먼 면에 닿을 만큼의 크기로 설정 */
+            background: radial-gradient(circle farthest-side at 30% 40%, white, yellow, green);
+        }
+
+        #div4 {
+            /* farthest-corner: 원형 그래디언트의 크기가 가장 먼 모서리에 닿을 만큼의 크기로 설정 */
+            background: radial-gradient(circle farthest-corner at 30% 40%, white, yellow, green);
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li id="div1"></li>
+    <li id="div2"></li>
+    <li id="div3"></li>
+    <li id="div4"></li>
+</ul>
+</body>
+</html>
