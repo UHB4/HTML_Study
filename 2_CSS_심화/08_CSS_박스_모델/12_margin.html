@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>박스모델</title>
+    <style>
+        div {
+            width:200px;
+            height: 100px;
+            background:#0094ff;
+        }
+    /*margin*/
+    /*4개 지정(시계방향순): 위-오른쪽-아래-왼쪽 => 30px 50px 40px 60px */
+        .box1 {margin:30px 50px 40px 60px;}
+
+    /*2개 지정: 위아래-왼쪽오른쪽 => 30px 50px 30px 50px */
+        .box2 {margin: 30px 50px;}
+
+    /*1개 지정: 모든 방향=> 50px 50px 50px 50px */
+        .box3 {margin:50px;}
+    /*3개 지정: 위-오른쪽-아래-왼쪽(오른쪽 값 사용) => 30px 5px 10px 5px */
+        .box4 {margin: 30px 5px 10px;}
+    </style>
+</head>
+<body>
+<div class="box1"></div>
+<div class="box2"></div>
+<div class="box3"></div>
+<div class="box4"></div>
+</body>
+</html>
