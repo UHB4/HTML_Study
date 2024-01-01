@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>폰트 스타일</title>
+<!--
+참고 ] id vs class
+id: 한 페이지 내에서 고유한 식벽자를 가지는 요소에 스타일 적용
+class: 동일한 스타일을 여러 요소에적용
+-->
+    <style>
+        p{font-style: italic} /*이탤릭체로 */
+        /*아래 태그는 p태그 보다 더 상세하게 정의가된 하위 요소의 스타일이다.
+        따라서 상위에서 정의한 스타일보다 우선순위가 더 높기 때문에
+        p태그에서 정의한 fomt-style 의 italic 값보다 normal 값을 우선적으로 적용한다.
+         */
+        p#txt {font-style: normal} /*p 요소 중 id=txt인 부분은 보통체로 */
+    </style>
+</head>
+<body>
+<h1>세계 3대 미항</h1>
+<p>시드니(Sydney), 호주</p>
+<p>리우데자네이루(Rio de Janeiro), 브라질</p>
+<p id="txt">나폴리(Naples), 이탈리아</p>
+</body>
+</html>

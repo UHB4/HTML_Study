@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>선형 그러데이션</title>
+    <style>
+        div {
+            width: 500px;
+            height: 300px;
+        }
+
+        .grad {
+            /*background: #06f;!* css3 미지원 브라우저 *!*/
+            background: red; /* css3 미지원 브라우저 */
+            /*동일한 속성에 대해서 여러번 정의 한다면 마지막에 정의한 속성으로 Overwrite된다*/
+            /*아래방향으로 그라데이션, 시작은 #06f(파란색계열),30%지점에서 white로 변환,나머지는 #06f로 변환*/
+            background: linear-gradient(to bottom, #06f, white 70%, #06f); /*최신 모던 브라우저 */
+            /*background: linear-gradient(to bottom, #06f, white 70%, #006699);!*최신 모던 브라우저 *!*/
+        }
+    </style>
+</head>
+<body>
+<div class="grad"></div>
+</body>
+</html>

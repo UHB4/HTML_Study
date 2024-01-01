@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inline va Inline-block</title>
+    <style>
+        .inline {
+            /*<!--*/
+            /** display 속성*/
+            /*- 종류: none(요소를 감춘다), block, inline, inline-block, contents, table, table-cell 등*/
+            /*- 주요 속성위주로 살펴본다.*/
+            /*- block: 인라인 요소를 블록 요소로 바꾼다.*/
+            /*-->*/
+
+            /* display: HTML 태그가 갖는 고유 display  속성을 변경할수 있다 */
+            display: inline;
+            border: 1px solid red;
+            padding: 10px;
+            width: 100px;
+            height: 100px;
+        }
+
+        /*
+        inline-block은 다른 인라인 요소와 같은 라인에 위치한다.
+        그런데 block 속성처럼 박스 모델이 가지는 고유의 크기를 가질 수 있다.
+         */
+        .inline-block {
+            display: inline-block;
+            border: 1px solid blue;
+            padding: 10px;
+            width: 100px;
+            height: 100px;
+        }
+
+        /*
+        요소 마다 새로운 라인을 차지하고 박스 모델이 가지는 고유의 크기를 갖는다.*/
+        .block {
+            display: block;
+            border: 1px solid green;
+            padding: 10px;
+            width: 100px;
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="inline">inline</div>
+<div class="inline">inline</div>
+<div class="inline-block">inline-block</div>
+<div class="inline-block">inline-block</div>
+<div class="block">block</div>
+<div class="block">block</div>
+</body>
+</html>

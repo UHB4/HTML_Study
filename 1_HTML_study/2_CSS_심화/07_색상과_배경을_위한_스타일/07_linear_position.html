@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>선형 그러데이션</title>
+    <style>
+        div {
+            width: 500px;
+            height: 300px;
+            border-right: 10px;
+        }
+
+        .grad {
+            /*크롬 브라우저에서 테스트 할것 */
+            background: blue; /* css3 미지원 브라우저 */
+            /*linear-gradient:그라데이션 효과
+            우측하단 방향으로, 배경색 파란색, 그라데이션 색상 흰색
+             */
+            background: linear-gradient(to right bottom, blue, white);
+        }
+    </style>
+</head>
+<body>
+<div class="grad"></div>
+</body>
+</html>

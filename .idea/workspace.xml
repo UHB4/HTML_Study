@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b299a66c-8a50-4e49-beeb-4b996d3cbc8a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-12-21 17 36 15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/01_webfont2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/02_webfont1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/03_font-size.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/04_font-vary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/05_font-style.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/06_font.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/07_color.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/08_text-decoration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/09_text-transform.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/10_text-shadow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/11_text-shadow2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/12_letter-spacing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/13_text-align.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/14_text-indent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/15_line-height.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/16_text-overflow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/18_bullet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/19_ordered.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/20_image-bullet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/21_list-position.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/06_텍스트관련_스타일/22_link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/07_색상과_배경을_위한_스타일/01_basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/07_색상과_배경을_위한_스타일/02_bg-color.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/07_색상과_배경을_위한_스타일/03_bg_clip_padding.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/07_색상과_배경을_위한_스타일/04_bg-img.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/07_색상과_배경을_위한_스타일/05_bg-position.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/07_색상과_배경을_위한_스타일/06_bg-origin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/07_색상과_배경을_위한_스타일/07_linear_position.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/07_색상과_배경을_위한_스타일/08_linear-degree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/07_색상과_배경을_위한_스타일/09_colorstop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/07_색상과_배경을_위한_스타일/10_radial-default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/07_색상과_배경을_위한_스타일/11_radial-position.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/07_색상과_배경을_위한_스타일/12_radial-size.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/07_색상과_배경을_위한_스타일/13_radial-color.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/01_inline-block.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/03_width-height.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/04_0_display.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/04_1_display-1_block.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/04_2_display-2_inline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/04_3_display-3_inline-block.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/05_border-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/07_border-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/08_radius-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/09_radius-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/10_radius-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/11_box-shadow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/12_margin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/13_margin-center.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/14_margin-overlap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/15_margin-overlap2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/16_padding.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/08_CSS_박스_모델/17_1_box.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/09_CSS_포지셔닝/it'smypractice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CSS_심화/QuizGame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_CSS_기초_핵심정리1_HTML기초.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_CSS_기초_핵심정리2_CSS기초.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2023-12-21 18 01 09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/q1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/q2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/q3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/q4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/공동작업.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/연습파일.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2aAnVHefZeLKQBLJqvXDHlNhrzS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/UHB/Project/2_WebProject/1_FrontEnd/1_HTML_study",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b299a66c-8a50-4e49-beeb-4b996d3cbc8a" name="Changes" comment="" />
+      <created>1703770272499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703770272499</updated>
+      <workItem from="1703770273593" duration="138000" />
+      <workItem from="1703770413499" duration="30000" />
+      <workItem from="1703770449315" duration="15000" />
+      <workItem from="1703770474750" duration="9000" />
+      <workItem from="1703770486984" duration="63000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
