@@ -1,0 +1,74 @@
+.auction_logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+margin-top: 3px;
+    margin-left: 430px;
+}
+.auction_search input{
+    margin-right: 1200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 4px solid red;
+    outline: none;
+    width: 400px;
+}
+.custom_list{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    right: 470px;
+}
+.custom_list li {
+    margin-right: 10px;
+    font-size: small;
+}
+.custom_list li a{
+    text-decoration: none;
+}
+.gnb_container{
+    border-top: grey;
+    position: absolute;
+    top: 120px;
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+
+}
+.categories_list{
+    display: flex;
+    list-style: none;
+  }
+.categories_list li{
+    margin-right: 20px;
+    border-top: grey;
+}
+.categories_list li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.last{
+    margin-left: 220px;
+}
+.new_year{
+    position: absolute;
+    left: 230px;
+    bottom: 100px;
+}
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top :6%;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 700px;
+
+}
+.grid a:active{
+    border-style: dotted;
+    border-color: grey;
+}

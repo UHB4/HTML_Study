@@ -1,0 +1,48 @@
+<!--
+- scaleX(): 지정한 크기만큼 x축으로 확대
+- scaleY(): 지정한 크기만큼 y축으로 확대
+- scale(): 지정한 크기만큼 x축과 y축으로 확대
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>Transform</title>
+    <style>
+        .origin {
+            width: 210px;
+            height: 200px;
+            border: 1px solid black;
+            float: left;
+            margin: 40px;
+        }
+        .scalex:hover {
+            transform: scaleX(1.2);
+        }
+        .scaley:hover {
+            transform: scaleY(1.5);
+        }
+        .scale:hover {
+            /*transform: scale(0.7);*/
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body>
+<div class="origin">
+    <div class="scalex">
+        <img src="images/fruit.jpg">
+    </div>
+</div>
+<div class="origin">
+    <div class="scaley">
+        <img src="images/fruit.jpg">
+    </div>
+</div>
+<div class="origin">
+    <div class="scale">
+        <img src="images/fruit.jpg">
+    </div>
+</div>
+</body>
+</html>

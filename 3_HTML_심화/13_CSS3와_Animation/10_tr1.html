@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>Transform</title>
+    <style>
+        .tr1 {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            border: 1px solid black;
+
+
+            /* 트랜지션 대상 선택 */
+            transition-property: width, height;
+
+
+            /* 트랜지션 진행시간 : 지연시간은 property요소 별 매칭
+            아래 경우 width 2초, height 1초
+             */
+            transition-duration: 2s, 1s;
+        }
+        .tr1:hover {
+            width:200px;
+            height:120px;
+
+        }
+    </style>
+</head>
+
+
+<body>
+<div class="tr1"></div>
+</body>
+</html>

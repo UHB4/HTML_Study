@@ -1,0 +1,14 @@
+.text-bg-dark{
+    margin: 0;
+    padding: 0;
+    background-image: url("img/jeju.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.px-3{
+    width: 700px;
+    padding-bottom: 100px;
+    /*background-color: #0094ff;*/
+    color:white;
+    font-weight: 900;
+}

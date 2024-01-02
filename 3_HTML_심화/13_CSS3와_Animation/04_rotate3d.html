@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>Transform</title>
+    <style>
+
+
+        .origin {
+            width: 210px;
+            height: 200px;
+            margin: 56px;
+            float: left;
+            border: 1px solid black;
+            perspective: 200px;
+        }
+        .rotatex {
+            /* x축을 기준으로 회전 */
+            transform: rotateX(45deg);
+        }
+        .rotatey {
+            /* y축을 기준으로 회전 */
+            transform: rotateY(45deg);
+        }
+    </style>
+</head>
+
+
+<body>
+<div class="origin">
+    <div class="rotatex"><img src="images/fruit.jpg" alt=""></div>
+</div>
+<div class="origin">
+    <div class="rotatey"><img src="images/fruit.jpg" alt=""></div>
+</div>
+</body>
+</html>
