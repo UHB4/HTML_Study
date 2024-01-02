@@ -58,6 +58,11 @@ margin-top: 3px;
     left: 230px;
     bottom: 100px;
 }
+.all_kill_logo{
+    position: absolute;
+    bottom: 5px;
+    left: 650px;
+}
 .grid {
     display: grid;
     gap: 26px;
