@@ -3,70 +3,319 @@
 <head>
     <meta charset="UTF-8">
     <title>옥션</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap">
 </head>
 <!--css-->
 <link href="Auction.css" rel="stylesheet">
 <body>
 <header class="auction_logo">
-<h1><a href="https://www.auction.co.kr/"><img class="logo" src="images/Auction%20logo.jpg" alt="옥션 로고"></a></h1>
-<div class="auction_search">
-    <h1><input></h1>
+    <h1><a href="https://www.auction.co.kr/"><img class="logo" src="images/Auction%20logo.jpg" alt="옥션 로고"></a></h1>
+    <div class="auction_search">
+        <h1><input></h1>
 
         <ul class="custom_list">
-            <li><a href="https://memberssl.auction.co.kr/Authenticate/?url=https%3a%2f%2fwww.auction.co.kr%2f&return_value=0">로그인</a></li>
+            <li>
+                <a href="https://memberssl.auction.co.kr/Authenticate/?url=https%3a%2f%2fwww.auction.co.kr%2f&return_value=0">로그인</a>
+            </li>
             <li><a href="https://memberssl.auction.co.kr/membership/signup/choicemembertype.aspx">회원가입</a></li>
-            <li><a href="https://memberssl.auction.co.kr/authenticate/?url=https%3A%2F%2Fcart.auction.co.kr%2Fko%2Fpc%2Fcart%2F">장바구니</a></li>
-            <li><a href="https://memberssl.auction.co.kr/authenticate/?url=https%3a%2f%2fmemberssl.auction.co.kr%2fmyauction%2fdefault.aspx">마이옥션</a></li>
+            <li>
+                <a href="https://memberssl.auction.co.kr/authenticate/?url=https%3A%2F%2Fcart.auction.co.kr%2Fko%2Fpc%2Fcart%2F">장바구니</a>
+            </li>
+            <li>
+                <a href="https://memberssl.auction.co.kr/authenticate/?url=https%3a%2f%2fmemberssl.auction.co.kr%2fmyauction%2fdefault.aspx">마이옥션</a>
+            </li>
             <li><a href="https://help.auction.co.kr/Tcs/Main">고객센터</a></li>
             <li><a href="https://sell3.auction.co.kr/sellbasic/sellbasicbridge.aspx">판매하기</a></li>
 
         </ul>
-</div>
+    </div>
     <div class="gnb_container">
-    <ul class="categories_list">
-        <li><a href="">전체 카테고리</a></li>
-        <li><a href="https://eventv2.auction.co.kr/event3/Monthly/CouponZone/w_event.aspx">쿠폰-포인트</a></li>
-        <li><a href="https://corners.auction.co.kr/corner/categorybest.aspx">베스트</a></li>
-        <li><a href="https://www.auction.co.kr/n/smiledelivery">스마일배송</a></li>
-        <li><a href="https://club.auction.co.kr/">유니버스 클럽</a></li>
-        <li><a href="https://corners.auction.co.kr/corner/categorybest.aspx">사업자 클럽</a></li>
-        <li class="last"><a href="">최근 본 상품</a></li>
-    </ul>
+        <ul class="categories_list">
+            <li><a href="">전체 카테고리</a></li>
+            <li><a href="https://eventv2.auction.co.kr/event3/Monthly/CouponZone/w_event.aspx">쿠폰-포인트</a></li>
+            <li><a href="https://corners.auction.co.kr/corner/categorybest.aspx">베스트</a></li>
+            <li><a href="https://www.auction.co.kr/n/smiledelivery">스마일배송</a></li>
+            <li><a href="https://club.auction.co.kr/">유니버스 클럽</a></li>
+            <li><a href="https://corners.auction.co.kr/corner/categorybest.aspx">사업자 클럽</a></li>
+            <li class="last"><a href="">최근 본 상품</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <ul class="categories" id="main-list">
+            <li onmouseenter="showSubList('fashion')">브랜드 패션</li>
+            <li onmouseenter="showSubList('clothing')">의류</li>
+            <li onmouseenter="showSubList('beauty')">뷰티 잡화</li>
+            <li onmouseenter="showSubList('mart')">식품 마트 유아</li>
+            <li onmouseenter="showSubList('health')">가구 생활 건강 렌탈</li>
+            <li onmouseenter="showSubList('digital')">가전 디지털 컴퓨터</li>
+            <li onmouseenter="showSubList('sport')">스포츠 레저 자동차</li>
+            <li onmouseenter="showSubList('book')">여행 도서 e쿠폰</li>
+        </ul>
+    </div>
+    <div class="sub-list" id="fashion-list">
+        <div class="box">
+            <div class="left-section">
+            <ul class="famous-brand">
+                <h4 class="sub-list-title">인기 브랜드</h4>
+                <li><a href="https://stores.auction.co.kr/GIORDANO">지오다노</a></li>
+                <li><a href="https://stores.auction.co.kr/dcollect">SOUP/비지트인뉴욕</a></li>
+                <li><a href="https://stores.auction.co.kr/shinwon">신원</a></li>
+                <li><a href="https://stores.auction.co.kr/byPARKLAND">by파크랜드</a></li>
+                <li><a href="https://stores.auction.co.kr/sejung">인디안/브루노바피</a></li>
+            </ul>
+            </div>
+            <div class="right-section">
+                <ul class="brand-list">
+                    <h4 class="sub-list-title2">브랜드 의류</h4>
+                    <li><a href="">브랜드 여성의류</a></li>
+                    <li><a href="">브랜드 남성의류</a></li>
+                    <li><a href="">브랜드 캐주얼의류</a></li>
+                    <h4 class="sub-list-title3">브랜드 잡화</h4>
+                    <li><a href="">브랜드 잡화</a></li>
+                    <li><a href="">브랜드 쥬얼리/시계</a></li>
+                    <li><a href="">브랜드 수입명품</a></li>
+                </ul>
+        </div>
+    </div>
+
+
+    </div>
+    <div class="sub-list" id="clothing-list">
+        <div class="box">
+            <div class="left-section">
+                <ul class="famous-brand">
+                    <h4 class="sub-list-title">인기 브랜드</h4>
+                    <li><a href="https://stores.auction.co.kr/brich">인기 로드샵X브리치</a></li>
+
+                </ul>
+            </div>
+            <div class="right-section">
+                <ul class="brand-list">
+                    <h4 class="sub-list-title2">의류/언더웨어</h4>
+                    <li><a href="">여성의류</a></li>
+                    <li><a href="">남성의류</a></li>
+                    <li><a href="">언더웨어</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="sub-list" id="beauty-list">
+        <div class="box">
+            <div class="left-section">
+                <ul class="famous-brand">
+                    <h4 class="sub-list-title">인기 브랜드</h4>
+                    <li><a href="https://stores.auction.co.kr/vustory">LG생활건강</a></li>
+                    <li><a href="https://stores.auction.co.kr/amorem">아모레퍼시픽</a></li>
+                    <li><a href="https://stores.auction.co.kr/innisfreea">이니스프리</a></li>
+                    <li><a href="https://stores.auction.co.kr/missha">미샤</a></li>
+                    <li><a href="https://stores.auction.co.kr/auctionag115">존슨앤드존슨</a></li>
+                </ul>
+            </div>
+            <div class="right-section">
+                <ul class="brand-list">
+                    <h4 class="sub-list-title2">뷰티</h4>
+                    <li><a href="">화장품/향수</a></li>
+                    <li><a href="">바디/헤어</a></li>
+                    <h4 class="sub-list-title3">잡화</h4>
+                    <li><a href="">신발</a></li>
+                    <li><a href="">가방/잡화</a></li>
+                    <li><a href="">쥬얼리/시계</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="sub-list" id="mart-list">
+        <div class="box">
+            <div class="left-section">
+                <ul class="famous-brand">
+                    <h4 class="sub-list-title">인기 전문관</h4>
+                    <li><a href="https://corners.auction.co.kr/Homeplus/default.aspx">홈플러스 당일배송</a></li>
+                    <li><a href="https://rpp.auction.co.kr/?exhib=8080">파머 스토리</a></li>
+                    <li><a href="https://rpp.auction.co.kr/rice">옥션 쌀 상회</a></li>
+                </ul>
+            </div>
+            <div class="right-section">
+                <ul class="brand-list">
+                    <h4 class="sub-list-title2">식품</h4>
+                    <li><a href="">신선식품</a></li>
+                    <li><a href="">건강식품</a></li>
+                    <li><a href="">커피/음료</a></li>
+                    <li><a href="">가공 식품</a></li>
+                    <h4 class="sub-list-title3">유아용품</h4>
+                    <li><a href="">출산/육아</a></li>
+                    <li><a href="">장난감/완구</a></li>
+                    <li><a href="">유아동의류</a></li>
+                    <li><a href="">유아동신발/잡화</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="sub-list" id="health-list">
+        <div class="box">
+            <div class="left-section">
+                <ul class="famous-brand">
+                    <h4 class="sub-list-title">인기 전문관</h4>
+                    <li><a href="https://rpp.auction.co.kr/?exhib=16045">렌탈</a></li>
+                    <li><a href="https://eventv2.auction.co.kr/Event3/Monthly/PetPlus/w_event.aspx">펫플러스</a></li>
+                </ul>
+            </div>
+            <div class="right-section">
+                <ul class="brand-list">
+                    <h4 class="sub-list-title2">가구/침구/수납</h4>
+                    <li><a href="">가구/DIY</a></li>
+                    <li><a href="">조명/인테리어</a></li>
+                    <li><a href="">생활용품</a></li>
+                    <li><a href="">주방용품</a></li>
+                    <li><a href="">침구/커튼</a></li>
+                    <h4 class="sub-list-title3">생활/취미</h4>
+                    <li><a href="">건강/의료용품</a></li>
+                    <li><a href="">반려동물용품</a></li>
+                    <li><a href="">악기/취미</a></li>
+                    <li><a href="">문구/사무용품</a></li>
+                    <li><a href="">꽃/이벤트용품</a></li>
+                    <li><a href="">렌탈 서비스</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="sub-list" id="digital-list">
+        <div class="box">
+            <div class="left-section">
+                <ul class="famous-brand">
+                    <h4 class="sub-list-title">인기 브랜드</h4>
+                    <li><a href="https://rpp.auction.co.kr/?exhib=24917">삼성전자</a></li>
+                    <li><a href="https://rpp.auction.co.kr/?exhib=36185">LG전자</a></li>
+                    <li><a href="https://rpp.auction.co.kr/?exhib=35344">애플</a></li>
+                    <li><a href="https://rpp.auction.co.kr/?exhib=37794">닌텐도</a></li>
+                </ul>
+            </div>
+            <div class="right-section">
+                <ul class="brand-list">
+                    <h4 class="sub-list-title2">가전</h4>
+                    <li><a href="">영상가전</a></li>
+                    <li><a href="">계절가전</a></li>
+                    <li><a href="">주방가전</a></li>
+                    <li><a href="">생활/미용가전</a></li>
+
+                    <h4 class="sub-list-title3">디지털</h4>
+                    <li><a href="">카메라</a></li>
+                    <li><a href="">음향기기</a></li>
+                    <li><a href="">게임</a></li>
+                    <li><a href="">모바일/태블릿</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="sub-list" id="sport-list">
+        <div class="box">
+            <div class="left-section">
+                <ul class="famous-brand">
+                    <h4 class="sub-list-title">인기 브랜드</h4>
+                    <li><a href="https://stores.auction.co.kr/filakorea1">휠라</a></li>
+                    <li><a href="https://stores.auction.co.kr/thenorthface">노스페이스</a></li>
+                    <li><a href="https://stores.auction.co.kr/nepa2022">네파</a></li>
+                </ul>
+            </div>
+            <div class="right-section">
+                <ul class="brand-list">
+                    <h4 class="sub-list-title2">스포츠/레저</h4>
+                    <li><a href="">휘트니스/수영</a></li>
+                    <li><a href="">스포츠의류/운동화</a></li>
+                    <li><a href="">골프</a></li>
+                    <li><a href="">등산/아웃도어</a></li>
+                    <li><a href="">캠핑/낚시</a></li>
+                    <li><a href="">구기/라켓</a></li>
+                    <li><a href="">자전거/보드/기타레저</a></li>
+                    <h4 class="sub-list-title3">자동차/공구</h4>
+                    <li><a href="">자동차용품</a></li>
+                    <li><a href="">공구/안전/산업용품</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="sub-list" id="book-list">
+        <div class="box">
+            <div class="left-section">
+                <ul class="famous-brand">
+                    <h4 class="sub-list-title">인기 기획전</h4>
+                    <li><a href="https://rpp.auction.co.kr/?exhib=16004">책과 문화</a></li>
+                    <li><a href="https://rpp.auction.co.kr/?exhib=33115">유니버스 클럽 BOOK</a></li>
+                    <li><a href="https://rpp.auction.co.kr/?exhib=42553">책 스마일배송</a></li>
+                </ul>
+            </div>
+            <div class="right-section">
+                <ul class="brand-list">
+                    <h4 class="sub-list-title2">도서/음반/콘텐츠</h4>
+                    <li><a href="">국내도서</a></li>
+                    <li><a href="">유아용/원서</a></li>
+                    <li><a href="">음반/교육</a></li>
+                    <h4 class="sub-list-title3">여행/호텔/항공권</h4>
+                    <li><a href="">항공권</a></li>
+                    <li><a href="">해외여행/호텔</a></li>
+                    <li><a href="">국내여행/숙박</a></li>
+                    <h4 class="sub-list-title4">e쿠폰</h4>
+                    <li><a href="">커피/햄버거/간식</a></li>
+                    <li><a href="">외식/피자/치킨</a></li>
+                    <li><a href="">편의점/생활</a></li>
+                </ul>
+            </div>
+        </div>
+
+
     </div>
     <div class="new_year">
         <a href="https://rpp.auction.co.kr/?exhib=209140" target="_blank" class="new_year">
-        <img src="images/new%20year.jpg" alt="newyear">
+            <img src="images/new%20year.jpg" alt="newyear">
         </a>
         <div class="all_kill_logo">
-            <h2><a href="https://corners.auction.co.kr/AllKill/AllDay.aspx"><img class="logo2" src="images/all%20kill.jpg" alt="올킬 로고"></a></h2>
+            <h2><a href="https://corners.auction.co.kr/AllKill/AllDay.aspx"><img class="logo2"
+                                                                                 src="images/all%20kill.jpg"
+                                                                                 alt="올킬 로고"></a></h2>
         </div>
     </div>
     <div class="wrapper grid">
-    <div class="mandu">
-        <a href="https://corners.auction.co.kr/AllKill/AllDay.aspx?SelectedItemno=C601331519" target="_blank">
-            <img src="images/mandu.jpg" alt=""></a>
-    </div>
-    <div class="climb">
-        <a href="http://corners.auction.co.kr/AllKill/AllDay.aspx?SelectedItemno=B205757599" target="_blank">
-            <img src="images/climb.jpg" alt=""></a>
-    </div>
-    <div class="kkomak">
-        <a href="http://corners.auction.co.kr/AllKill/AllDay.aspx?SelectedItemno=B412357004" target="_blank">
-            <img src="images/kkomak.jpg" alt=""></a>
-    </div>
-    <div class="paper">
-        <a href="https://corners.auction.co.kr/AllKill/AllDay.aspx?SelectedItemno=B412357004" target="_blank">
-            <img src="images/paper.jpg" alt=""></a>
-    </div>
-    <div class="butter">
-        <a href="https://corners.auction.co.kr/AllKill/AllDay.aspx?SelectedItemno=B863264950" target="_blank">
-            <img src="images/butter.jpg" alt=""></a>
-    </div>
-    <div class="cream">
-        <a href="https://corners.auction.co.kr/AllKill/AllDay.aspx?SelectedItemno=B804174266" target="_blank">
-            <img src="images/cream.jpg" alt=""></a>
-    </div>
+        <div class="mandu">
+            <a href="https://corners.auction.co.kr/AllKill/AllDay.aspx?SelectedItemno=C601331519" target="_blank">
+                <img src="images/mandu.jpg" alt=""></a>
+        </div>
+        <div class="climb">
+            <a href="http://corners.auction.co.kr/AllKill/AllDay.aspx?SelectedItemno=B205757599" target="_blank">
+                <img src="images/climb.jpg" alt=""></a>
+        </div>
+        <div class="kkomak">
+            <a href="http://corners.auction.co.kr/AllKill/AllDay.aspx?SelectedItemno=B412357004" target="_blank">
+                <img src="images/kkomak.jpg" alt=""></a>
+        </div>
+        <div class="paper">
+            <a href="https://corners.auction.co.kr/AllKill/AllDay.aspx?SelectedItemno=B412357004" target="_blank">
+                <img src="images/paper.jpg" alt=""></a>
+        </div>
+        <div class="butter">
+            <a href="https://corners.auction.co.kr/AllKill/AllDay.aspx?SelectedItemno=B863264950" target="_blank">
+                <img src="images/butter.jpg" alt=""></a>
+        </div>
+        <div class="cream">
+            <a href="https://corners.auction.co.kr/AllKill/AllDay.aspx?SelectedItemno=B804174266" target="_blank">
+                <img src="images/cream.jpg" alt=""></a>
+        </div>
+        </div>a
     </div>
 </header>
+
+<script src="script.js"></script>
 </body>
 </html>

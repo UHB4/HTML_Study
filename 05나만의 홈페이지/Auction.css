@@ -1,3 +1,7 @@
+.body{
+    font-family: 'Black Han Sans', sans-serif;;
+}
+
 .auction_logo{
     display: flex;
     align-items: center;
@@ -50,9 +54,103 @@ margin-top: 3px;
     color: black;
     font-weight: bold;
 }
+.categories li:hover{
+    background-color: white;
+    color: black;
+}
 .last{
     margin-left: 220px;
 }
+.container{
+    position: absolute;
+    left: 448px;
+    top: 176px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 0;
+    height: 450px;
+
+}
+.categories{
+    list-style-type: none;
+    padding: 0;
+}
+.categories li{
+    padding: 10px;
+}
+.sub-list {
+    position: absolute;
+    left: 615px;
+    top:175px;
+    display: none;
+}
+.sub-list.active{
+    display: block;
+}
+.box{
+    width: 825px;
+    height: 450px;
+    border: 1px solid black;
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+
+}
+.left-section{
+    flex: 1;
+    background-color:#f2f2f2;
+}
+.right-section{
+    flex: 4;
+    background-color: white;
+}
+.famous-brand{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #666666;
+}
+.famous-brand li a{
+    font-size: 12px;
+    text-decoration: none;
+}
+.famous-brand li a:visited{
+    color: #666666;
+    text-decoration: none;
+}
+.famous-brand li a:hover{
+    text-decoration: underline;
+}
+
+.brand-list{
+    position: absolute;
+    top: 10px;
+    list-style-type: none;
+    left: 200px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.brand-list li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+.brand-list li a:hover{
+    background-color: red;
+    padding: 1px;
+}
+.brand-list li::before{
+    content: '>';
+    position: absolute;
+    left: 150px;
+    color: #cccbcb;
+}
+
 .new_year{
     position: absolute;
     left: 230px;
