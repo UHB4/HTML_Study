@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>CSS Text Practice</title>
+    <style>
+        body {
+            font-family: Verdana;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        p#bold {
+            font-weight: bold;
+            color:red;
+        }
+        p#italic{
+            font-style: italic;
+        }
+        .struck{
+            text-decoration: line-through;
+            color: rgba(0, 0, 0, 0.5);
+        }
+        .underline{
+            text-decoration: underline;
+            color:blue;
+        }
+        p#smaller{
+            font-size: smaller;
+        }
+        p#larger{
+            font-size: larger;
+        }
+        p#highlight{
+            background-color: yellow;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+<!-- 아래 모든 텍스트에서 라인별 스타일을 적용해 보세요. -->
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p id="bold"> This text should be bold</p>
+<p id="italic">This text should be italicized</p>
+<p><span class="struck">This text should be struck through</span></p>
+<p><span class="underline">This text should be underlined</span></p>
+<p id="smaller">This text should be smaller than the normal text</p>
+<p id="larger">This text should be larger than the normal text</p>
+<p id="highlight">This text should be highlighted</p>
+</body>
+</html>

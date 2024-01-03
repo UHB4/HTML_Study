@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            border-collapse: separate;
+            width: 40%;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* 특정 행 스타일링 */
+        tr:nth-child(2) {
+            background-color: lightgray;
+        }
+
+        th,td{
+            width: 20%;
+        }
+        /* 특정 열 스타일링 */
+        td:nth-child(3) {
+            font-weight: bold;
+        }
+    </style>
+    <title>Row and Column Styling</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>이름</th>
+        <th>나이</th>
+        <th>성별</th>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>25</td>
+        <td>남성</td>
+    </tr>
+    <tr>
+        <td>Jane</td>
+        <td>22</td>
+        <td>여성</td>
+    </tr>
+</table>
+
+</body>
+</html>
