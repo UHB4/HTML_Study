@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b299a66c-8a50-4e49-beeb-4b996d3cbc8a" name="Changes" comment="1월3일 구조변경">
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/03_1_변수.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/03_2_숫자형_변수.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/04_1_문자형_변수.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/04_2_write함수의_이해1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/04_2_write함수의_이해2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/04_2_write함수의_이해3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/04_3_문자형_연산2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/05_논리형변수1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/js/example.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b299a66c-8a50-4e49-beeb-4b996d3cbc8a" name="Changes" comment="1월3일 구조변경" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +102,7 @@
       <workItem from="1704242036781" duration="13193000" />
       <workItem from="1704255283291" duration="29000" />
       <workItem from="1704257956016" duration="1887000" />
-      <workItem from="1704262581820" duration="3954000" />
+      <workItem from="1704262581820" duration="4185000" />
     </task>
     <task id="LOCAL-00001" summary="1월2일">
       <option name="closed" value="true" />
@@ -163,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704264130305</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1월3일 구조변경">
+      <option name="closed" value="true" />
+      <created>1704271551585</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704271551585</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
