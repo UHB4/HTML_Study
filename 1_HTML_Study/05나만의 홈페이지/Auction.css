@@ -1,16 +1,17 @@
-.body{
+.body {
     font-family: 'Black Han Sans', sans-serif;;
 }
 
-.auction_logo{
+.auction_logo {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-margin-top: 3px;
+    margin-top: 3px;
     margin-left: 430px;
 }
-.auction_search input{
+
+.auction_search input {
     margin-right: 1200px;
     padding: 10px;
     margin-bottom: 20px;
@@ -19,21 +20,25 @@ margin-top: 3px;
     outline: none;
     width: 400px;
 }
-.custom_list{
+
+.custom_list {
     display: flex;
     list-style: none;
     position: absolute;
     top: 0;
     right: 470px;
 }
+
 .custom_list li {
     margin-right: 10px;
     font-size: small;
 }
-.custom_list li a{
+
+.custom_list li a {
     text-decoration: none;
 }
-.gnb_container{
+
+.gnb_container {
     border-top: grey;
     position: absolute;
     top: 120px;
@@ -41,27 +46,33 @@ margin-top: 3px;
     border-bottom: 2px solid black;
 
 }
-.categories_list{
+
+.categories_list {
     display: flex;
     list-style: none;
-  }
-.categories_list li{
+}
+
+.categories_list li {
     margin-right: 20px;
     border-top: grey;
 }
-.categories_list li a{
+
+.categories_list li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
-.categories li:hover{
+
+.categories li:hover {
     background-color: white;
     color: black;
 }
-.last{
+
+.last {
     margin-left: 220px;
 }
-.container{
+
+.container {
     position: absolute;
     left: 448px;
     top: 176px;
@@ -72,23 +83,28 @@ margin-top: 3px;
     height: 450px;
 
 }
-.categories{
+
+.categories {
     list-style-type: none;
     padding: 0;
 }
-.categories li{
+
+.categories li {
     padding: 10px;
 }
+
 .sub-list {
     position: absolute;
     left: 615px;
-    top:175px;
+    top: 175px;
     display: none;
 }
-.sub-list.active{
+
+.sub-list.active {
     display: block;
 }
-.box{
+
+.box {
     width: 825px;
     height: 450px;
     border: 1px solid black;
@@ -97,15 +113,18 @@ margin-top: 3px;
     display: flex;
 
 }
-.left-section{
+
+.left-section {
     flex: 1;
-    background-color:#f2f2f2;
+    background-color: #f2f2f2;
 }
-.right-section{
+
+.right-section {
     flex: 4;
     background-color: white;
 }
-.famous-brand{
+
+.famous-brand {
     position: absolute;
     top: 10px;
     left: 15px;
@@ -114,19 +133,22 @@ margin-top: 3px;
     margin: 0;
     color: #666666;
 }
-.famous-brand li a{
+
+.famous-brand li a {
     font-size: 12px;
     text-decoration: none;
 }
-.famous-brand li a:visited{
+
+.famous-brand li a:visited {
     color: #666666;
     text-decoration: none;
 }
-.famous-brand li a:hover{
+
+.famous-brand li a:hover {
     text-decoration: underline;
 }
 
-.brand-list{
+.brand-list {
     position: absolute;
     top: 10px;
     list-style-type: none;
@@ -135,43 +157,49 @@ margin-top: 3px;
     margin: 0;
     text-decoration: none;
 }
-.brand-list li a{
+
+.brand-list li a {
     font-size: 12px;
     text-decoration: none;
     color: black;
 }
-.brand-list li a:hover{
+
+.brand-list li a:hover {
     background-color: red;
     padding: 1px;
 }
-.brand-list li::before{
+
+.brand-list li::before {
     content: '>';
     position: absolute;
     left: 150px;
     color: #cccbcb;
 }
 
-.new_year{
+.new_year {
     position: absolute;
     left: 230px;
     bottom: 100px;
 }
-.all_kill_logo{
+
+.all_kill_logo {
     position: absolute;
     bottom: 5px;
     left: 650px;
 }
+
 .grid {
     display: grid;
     gap: 26px;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top :6%;
+    margin-top: 6%;
     margin-bottom: 50px;
     position: absolute;
     top: 700px;
 
 }
-.grid a:active{
+
+.grid a:active {
     border-style: dotted;
     border-color: grey;
 }

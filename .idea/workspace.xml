@@ -5,11 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b299a66c-8a50-4e49-beeb-4b996d3cbc8a" name="Changes" comment="1월2일">
-      <change afterPath="$PROJECT_DIR$/05나만의 홈페이지/practice2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05나만의 홈페이지/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05나만의 홈페이지/Auction.css" beforeDir="false" afterPath="$PROJECT_DIR$/05나만의 홈페이지/Auction.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05나만의 홈페이지/Auction.html" beforeDir="false" afterPath="$PROJECT_DIR$/05나만의 홈페이지/Auction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05나만의 홈페이지/Auction.css" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/05나만의 홈페이지/Auction.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05나만의 홈페이지/Auction.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/05나만의 홈페이지/Auction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05나만의 홈페이지/practice2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05나만의 홈페이지/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/05나만의 홈페이지/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_HTML_심화/12_CSS3와_Selector/12_navi_동작에반응하는_가상클래스.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/3_HTML_심화/12_CSS3와_Selector/12_navi_동작에반응하는_가상클래스.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_HTML_심화/12_CSS3와_Selector/13_states.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/3_HTML_심화/12_CSS3와_Selector/13_states.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_HTML_심화/12_CSS3와_Selector/14_nth.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/3_HTML_심화/12_CSS3와_Selector/14_nth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_HTML_심화/12_CSS3와_Selector/15_rounded-navi.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/3_HTML_심화/12_CSS3와_Selector/15_rounded-navi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_HTML_심화/12_CSS3와_Selector/16_after.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/3_HTML_심화/12_CSS3와_Selector/16_after.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_HTML_심화/12_CSS3와_Selector/quiz-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/3_HTML_심화/12_CSS3와_Selector/quiz-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_HTML_심화/12_CSS3와_Selector/quiz-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/3_HTML_심화/12_CSS3와_Selector/quiz-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_HTML_심화/13_CSS3와_Animation/01_translate.html .html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/3_HTML_심화/13_CSS3와_Animation/01_translate.html .html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_HTML_심화/13_CSS3와_Animation/02_scale.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/3_HTML_심화/13_CSS3와_Animation/02_scale.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_HTML_심화/13_CSS3와_Animation/03_rotate.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/3_HTML_심화/13_CSS3와_Animation/03_rotate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_HTML_심화/13_CSS3와_Animation/04_rotate3d.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/3_HTML_심화/13_CSS3와_Animation/04_rotate3d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_HTML_심화/13_CSS3와_Animation/05_skew.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/3_HTML_심화/13_CSS3와_Animation/05_skew.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_HTML_심화/13_CSS3와_Animation/06_tr-origin.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/3_HTML_심화/13_CSS3와_Animation/06_tr-origin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_HTML_심화/13_CSS3와_Animation/10_tr1.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/3_HTML_심화/13_CSS3와_Animation/10_tr1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_HTML_심화/13_CSS3와_Animation/11_tr2.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/3_HTML_심화/13_CSS3와_Animation/11_tr2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_HTML_심화/13_CSS3와_Animation/12_tr-delay.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/3_HTML_심화/13_CSS3와_Animation/12_tr-delay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_실전예제/01_bootstrap_start.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/4_실전예제/01_bootstrap_start.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_실전예제/02_bootstrap_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/4_실전예제/02_bootstrap_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_실전예제/03_bootstrap_component_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/4_실전예제/03_bootstrap_component_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_실전예제/04_bootstrap_webpage_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/4_실전예제/04_bootstrap_webpage_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_실전예제/04_bootstrap_webpage_test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/4_실전예제/04_bootstrap_webpage_test2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_실전예제/04_bootstrap_webpage_test3.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/4_실전예제/04_bootstrap_webpage_test3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_실전예제/Auction1.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/4_실전예제/Auction1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_실전예제/cover.css" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/4_실전예제/cover.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_실전예제/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/4_실전예제/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_실전예제/practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/4_실전예제/practice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_실전예제/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/1_HTML_Study/4_실전예제/product.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +55,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;UHB4&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="852b46a9-8c21-42db-8c6b-da25fe6cc3cf" />
+        <option name="url" value="https://github.com/UHB4/HTML_Study.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -37,30 +78,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/UHB/Project/2_WebProject/1_FrontEnd/1_HTML_study/4_실전예제&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/UHB/Project/2_WebProject/1_FrontEnd",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\1_HTML_study\4_실전예제" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\1_HTML_Study" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,7 +120,10 @@
       <workItem from="1703770449315" duration="15000" />
       <workItem from="1703770474750" duration="9000" />
       <workItem from="1703770486984" duration="63000" />
-      <workItem from="1704242036781" duration="12969000" />
+      <workItem from="1704242036781" duration="13193000" />
+      <workItem from="1704255283291" duration="29000" />
+      <workItem from="1704257956016" duration="1887000" />
+      <workItem from="1704262581820" duration="1230000" />
     </task>
     <task id="LOCAL-00001" summary="1월2일">
       <option name="closed" value="true" />
@@ -94,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704186963033</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1월2일">
+      <option name="closed" value="true" />
+      <created>1704255237015</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704255237015</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
