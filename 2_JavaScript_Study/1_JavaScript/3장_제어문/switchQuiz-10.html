@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>공원 요금 계산 프로그램2</title>
+    <script>
+        var yourAge = parseInt(prompt("나이를 입력하세요."))
+        var pay
+        var yourClass
+
+        if (yourAge<0){
+            document.write("다시 입력하세요")
+        }
+
+        else if(yourAge<4){
+            pay ="무료";
+            yourClass ="유아"
+            document.write("귀하는"+yourClass+"등급이며"+"요금은"+pay+"입니다.")
+        }else if(yourAge>=4 && yourAge <=13){
+            pay ="2000원";
+            yourClass ="어린이"
+            document.write("귀하는"+yourClass+"등급이며"+"요금은"+pay+"입니다.")
+        }
+        else if(yourAge>=13 && yourAge <=18){
+            pay ="3000원";
+            yourClass ="청소년"
+            document.write("귀하는"+yourClass+"등급이며"+"요금은"+pay+"입니다.")
+
+        }else if(yourAge>18 && yourAge <=65){
+            pay ="5000원";
+            yourClass ="성인"
+            document.write("귀하는"+yourClass+"등급이며"+"요금은"+pay+"입니다.")
+        }else if(yourAge>=66){
+            pay ="무료";
+            yourClass ="노인"
+            document.write("귀하는"+yourClass+"등급이며"+"요금은"+pay+"입니다.")
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

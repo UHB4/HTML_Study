@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>스위치3</title>
+    <script>
+        var inputNumber = parseInt(prompt("월 입력: "));
+        var month
+
+        switch (inputNumber){
+            case 12:
+            case 1:
+            case 2:
+                month = "겨울"
+                break;
+            case 3:
+            case 4:
+            case 5:
+                month ="봄"
+                break;
+            case 6:
+            case 7:
+            case 8:
+                month ="여름"
+                break;
+            case 9:
+            case 10:
+            case 11:
+                month ="가을"
+                break;
+            default:
+                month ="잘못된 입력입니다."
+                break;
+        }
+        alert(month)
+    </script>
+</head>
+<body>
+
+</body>
+</html>

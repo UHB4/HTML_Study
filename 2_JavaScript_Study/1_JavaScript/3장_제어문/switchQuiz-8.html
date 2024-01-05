@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>스위치8</title>
+    <script>
+        var inputNumber = parseInt(prompt("Enter the month (1-12): "));
+        var month;
+
+        switch (inputNumber) {
+            case 2:
+                month = 28;
+                break;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                month2 = 30;
+                break;
+            case 1:
+            case 5:
+            case 7:
+            case 8:
+            case 12:
+                month = 31;
+                break;
+        }
+
+        alert("The number of days in month"+inputNumber+" is" +month);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

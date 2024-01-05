@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>국영수</title>
+    <script>
+        var totalScore = parseInt(prompt("국영수 총점을 입력하세요: "));
+        var levelA = 270;
+        var levelB = 240;
+        var levelC = 210;
+        var levelD = 180;
+        var level
+
+        if(totalScore>=levelA) {
+            level = "A"
+
+        }else if (totalScore>levelB){
+            level = "B"
+        }else if (totalScore>levelC){
+            level = "C"
+
+        }else if (totalScore>levelD){
+            level = "D"
+
+        }else{
+            level = "F"
+        }
+        alert("당신의 등급은"+level+"입니다.")
+    </script>
+</head>
+<body>
+
+</body>
+</html>

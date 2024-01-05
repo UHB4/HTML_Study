@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>공원 요금 계산 프로그램3</title>
+    <script>
+        var yourAge = parseInt(prompt("나이를 입력하세요."))
+        var pay
+        var yourClass
+
+        if (yourAge<0){
+            document.write("다시 입력하세요")
+        }
+
+        else if(yourAge<4){
+            pay ="0";
+            yourClass ="유아"
+        }else if(yourAge>=4 && yourAge <=13){
+            pay ="2000";
+            yourClass ="어린이"
+        }
+        else if(yourAge>=13 && yourAge <=18){
+            pay ="3000";
+            yourClass ="청소년"
+        }else if(yourAge>18 && yourAge <=65){
+            pay ="5000";
+            yourClass ="성인"
+        }else if(yourAge>=66){
+            pay ="0";
+            yourClass ="노인"
+        }
+        document.write("귀하는"+yourClass+"등급이며"+"요금은"+pay+"원 입니다.\n\n")
+
+        //요금 안내!!! alert
+        // alert(`당신의 등급은 ${yourClass}입니다. \n당신이 낼 요금은 ${pay}입니다.\n\n`)
+
+        // 비용 지출
+        var yourCash = parseInt(prompt("요금을 입력하세요."))
+
+        if (yourCash < pay){
+            diff = yourCash-pay
+            document.write(diff + "가 모자랍니다. 입력하신 "+yourCash+"원을 반환합니다.")
+        }else if (yourCash === pay){
+            document.write("감사합니다 티켓을 발행합니다.")
+
+        }else {
+            diff1 = pay - yourCash
+            document.write("감사합니다.티켓을 발행하고 남은금액"+diff1+"원을 반환합니다.")
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
