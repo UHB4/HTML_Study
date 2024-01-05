@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b299a66c-8a50-4e49-beeb-4b996d3cbc8a" name="Changes" comment="1월3일 구조변경" />
+    <list default="true" id="b299a66c-8a50-4e49-beeb-4b996d3cbc8a" name="Changes" comment="1월3일 구조변경">
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/Quiz-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/01_if_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/02_else_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/03_elseif_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/1장/ex1_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/1장/test_example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/01_statement_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/02_외부스크립트연동.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/03_1_변수.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/03_2_숫자형_변수.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/04_1_문자형_변수.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/04_2_write함수의_이해1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/04_2_write함수의_이해2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/04_2_write함수의_이해3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/04_3_문자형_연산.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/04_3_문자형_연산2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/05_논리형변수1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/06_1_숫자형_연산.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/06_2_중간_응용.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/07_typeof.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/08_복합대입연산_dboperator_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장/js/example.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +72,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.01_if_1.html.executor": "Run",
+    "JavaScript Debug.02_else_1.html.executor": "Run",
+    "JavaScript Debug.03_elseif_1.html.executor": "Debug",
     "JavaScript Debug.test_example.html.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -69,19 +96,39 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\1_JavaScript\2장" />
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\1_HTML_study\4_실전예제" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\1_JavaScript\2장_변수_연산자" />
+      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\3_실전예제" />
+      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\1_JavaScript" />
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\1_JavaScript\2장" />
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\1_HTML_Study" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.03_elseif_1.html">
+    <configuration name="01_if_1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/1_FrontEnd/2_JavaScript_Study/1_JavaScript/3장_제어문/01_if_1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="02_else_1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/1_FrontEnd/2_JavaScript_Study/1_JavaScript/3장_제어문/02_else_1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="03_elseif_1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/1_FrontEnd/2_JavaScript_Study/1_JavaScript/3장_제어문/03_elseif_1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="test_example.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/1_FrontEnd/2_JavaScript_Study/1_JavaScript/1장/test_example.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="practice.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="practice.js" working-dir="$PROJECT_DIR$/2_JavaScript_Study">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.03_elseif_1.html" />
+        <item itemvalue="JavaScript Debug.02_else_1.html" />
+        <item itemvalue="JavaScript Debug.01_if_1.html" />
+        <item itemvalue="Node.js.practice.js" />
         <item itemvalue="JavaScript Debug.test_example.html" />
       </list>
     </recent_temporary>
@@ -103,6 +150,12 @@
       <workItem from="1704255283291" duration="29000" />
       <workItem from="1704257956016" duration="1887000" />
       <workItem from="1704262581820" duration="4185000" />
+      <workItem from="1704328554999" duration="15000" />
+      <workItem from="1704328611040" duration="1374000" />
+      <workItem from="1704332047098" duration="15413000" />
+      <workItem from="1704363743470" duration="1173000" />
+      <workItem from="1704414623689" duration="3392000" />
+      <workItem from="1704423262853" duration="4535000" />
     </task>
     <task id="LOCAL-00001" summary="1월2일">
       <option name="closed" value="true" />
@@ -171,5 +224,12 @@
     <MESSAGE value="1월2일" />
     <MESSAGE value="1월3일 구조변경" />
     <option name="LAST_COMMIT_MESSAGE" value="1월3일 구조변경" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JavascriptDebugType">
+        <watch expression="mon" language="HTML" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
