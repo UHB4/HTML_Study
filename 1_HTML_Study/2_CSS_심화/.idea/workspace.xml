@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c2846f91-f7c4-4106-9367-3c1e3e5a23f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../2_JavaScript_Study/Quiz-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/1장/ex1_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/1장/test_example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/2장/01_statement_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/2장/02_외부스크립트연동.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/2장/03_1_변수.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/2장/03_2_숫자형_변수.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/2장/04_1_문자형_변수.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/2장/04_2_write함수의_이해1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/2장/04_2_write함수의_이해2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/2장/04_2_write함수의_이해3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/2장/04_3_문자형_연산.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/2장/04_3_문자형_연산2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/2장/05_논리형변수1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/2장/06_1_숫자형_연산.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/2장/06_2_중간_응용.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/2장/07_typeof.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/2장/08_복합대입연산_dboperator_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_JavaScript_Study/1_JavaScript/2장/js/example.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2aW8zvy5Cfm1nu4y2iZ3k4QTfPQ" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/UHB/Project/2_WebProject/1_FrontEnd/1_HTML_Study/2_CSS_심화",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2846f91-f7c4-4106-9367-3c1e3e5a23f4" name="Changes" comment="" />
+      <created>1704423240849</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704423240849</updated>
+      <workItem from="1704423241899" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

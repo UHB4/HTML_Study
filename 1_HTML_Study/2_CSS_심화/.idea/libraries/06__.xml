@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="06_텍스트관련_스타일">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/06_텍스트관련_스타일/images.zip!/" />
+      <root url="jar://$PROJECT_DIR$/06_텍스트관련_스타일/trana.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
