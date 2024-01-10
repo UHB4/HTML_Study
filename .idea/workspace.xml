@@ -4,8 +4,77 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b299a66c-8a50-4e49-beeb-4b996d3cbc8a" name="Changes" comment="1월5일">
+    <list default="true" id="b299a66c-8a50-4e49-beeb-4b996d3cbc8a" name="Changes" comment="1월6일">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/1장-스모크테스트/ex1_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/1장-스모크테스트/test_example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/.idea/2장.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/01_statement_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/02_외부스크립트연동.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/03_1_변수.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/03_2_숫자형_변수.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/04_1_문자형_변수.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/04_2_write함수의_이해1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/04_2_write함수의_이해2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/04_2_write함수의_이해3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/04_3_문자형_연산.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/04_3_문자형_연산2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/05_논리형변수1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/06_1_숫자형_연산.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/06_2_중간_응용.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/07_typeof.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/08_복합대입연산_dboperator_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/09_2증감연산2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/09_증감연산1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/10_비교연산.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/11_prompt활용_사용자입력과_변수매치.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/12_삼항연산자_ternary_operator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/13_연산자_우선순위1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/14_연산자_우선순위2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/15_Console_log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/16_에러찾기.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/17_크롬브라우저_디버깅.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/Quiz-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/Quiz-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/Quiz-3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/Quiz-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/Quiz-4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/Quiz-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/Quiz-5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/Quiz-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/Quiz-6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/Quiz-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/Quiz-7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/Quiz-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/Quiz-8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/Quiz-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/Quiz-9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/Quiz-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/2장_변수_연산자/js/example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/01_if_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/02_else_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/03_elseif_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/04_switch_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/04_switch_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/Quiz-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/Quiz-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/Quiz-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/Quiz-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/switchQuiz-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/switchQuiz-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/switchQuiz-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/switchQuiz-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/switchQuiz-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/switchQuiz-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/switchQuiz-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/switchQuiz-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/switchQuiz-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/switchQuiz-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/1_JavaScript/3장_제어문/switchQuiz-9.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +153,11 @@
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\1_HTML_study\4_실전예제" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\2장_JQuery\6장\js" />
+      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\2장_JQuery\6장" />
+      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\2장_JQuery\6장\images" />
+      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study" />
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\1_JavaScript\2장_변수_연산자" />
-      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\3_실전예제" />
-      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\1_JavaScript" />
-      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\1_JavaScript\2장" />
-      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\1_HTML_Study" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.switchQuiz-11.html">
@@ -142,6 +211,9 @@
       <workItem from="1704423262853" duration="4560000" />
       <workItem from="1704433005867" duration="13748000" />
       <workItem from="1704446966380" duration="26000" />
+      <workItem from="1704534007481" duration="104000" />
+      <workItem from="1704534119568" duration="42000" />
+      <workItem from="1704846700980" duration="7782000" />
     </task>
     <task id="LOCAL-00001" summary="1월2일">
       <option name="closed" value="true" />
@@ -215,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704446412914</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1더123ㅏㅣ">
+      <option name="closed" value="true" />
+      <created>1704534040488</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704534040488</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +306,8 @@
     <MESSAGE value="1월2일" />
     <MESSAGE value="1월3일 구조변경" />
     <MESSAGE value="1월5일" />
-    <option name="LAST_COMMIT_MESSAGE" value="1월5일" />
+    <MESSAGE value="1더123ㅏㅣ" />
+    <option name="LAST_COMMIT_MESSAGE" value="1더123ㅏㅣ" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
