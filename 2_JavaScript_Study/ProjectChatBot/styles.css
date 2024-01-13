@@ -1,0 +1,312 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    width: 2000px;
+    justify-content: center;
+}
+
+.cbp-hrmenu {
+    width: 90%;
+    height: 60px;
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    padding: 0 30px;
+    z-index: 2;
+
+
+}
+
+.side_menu_product_box {
+    width: 100%;
+    height: 9000px;
+    margin: 0 0 0;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    padding: 10px 0 0 ;
+    z-index: 1;
+
+
+}
+
+/*#contentWrapper {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+
+/*}*/
+
+.cate {
+    width: 1592px;
+    height: 60px;
+    display: flex;
+    list-style: none;
+    justify-content: center;;
+    margin: 0;
+    line-height: 50px;
+
+
+}
+
+.cate > li {
+    /*margin: 0;*/
+    margin-left: 84px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.sub-menu {
+    width: 70px;
+    /*margin: 0;*/
+    padding: 0;
+
+    position: relative;
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    top: -15px;
+    left: 2px;
+    display: none;
+    line-height: normal;
+
+
+    /* 수정된 부분: 수평으로 표시하도록 설정 */
+
+}
+
+.cg {
+    position: relative;
+}
+
+.cg:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu li {
+
+    display: inline-block;
+    padding: 10px;
+}
+
+.sub-menu li:last-child {
+    /* 수정된 부분: 마지막 항목에는 border-right 제거 */
+    border-right: none;
+}
+/*.cate .new a {*/
+/*    color: blue;*/
+/*}*/
+.cate > li a:visited,
+.cate > li a:-webkit-any-link {
+    color: black;
+    text-decoration: none;
+}
+.pro_title a{
+    font-weight: bold;
+    text-decoration: none;
+}
+.pro_title a:visited{
+    color: black;
+
+}
+
+h2 {
+    width: 100%;
+    height: 37px;
+    margin: 10px 0 30px;
+    padding: 0 0 13px;
+    border-bottom: 2px solid black;
+
+}
+
+.product_big_menu {
+    list-style: none;
+    width: 100%;
+    height: 190px;
+}
+
+.product_big_menu > li {
+    margin-top: 30px;
+
+}
+
+.contentWrapper li a:hover {
+    font-weight: bold;
+    color: black;
+}
+
+.product_big_menu a,
+.product_big_menu a:visited,
+.product_big_menu a:-webkit-any-link {
+    color: black;
+    text-decoration: none;
+}
+
+
+ #product_side_menu {
+         width: 150px;
+         height: 729px;
+         position: relative;
+         top: 365px;
+         left: 120px;
+     }
+
+.product_box {
+    width: 1187px;
+    height: 47px;
+    margin: 10px 0 20px;
+    padding: 0 0 13px;
+    position: absolute;
+    top: 380px;
+    left: 300px;
+}
+
+.product_box a {
+    font-size: 22px;
+
+
+}
+
+.pro_title {
+    padding: 0 0 13px;
+
+    border-bottom: 1px solid #6c6868;
+}
+
+.product_box {
+    width: 1187px;
+    height: 5000px;
+    padding: 0;
+    margin: 0;
+}
+
+.prd-section-box {
+    margin: 0;
+    padding: 0;
+
+}
+
+#prd-section02 {
+    margin: 0;
+    padding: 0;
+}
+
+.total dd {
+    position: absolute;
+    top: 80px;
+    left: -40px;
+}
+
+/*.item {*/
+/*    margin: 12px 0 0;*/
+/*    padding: 0 0 80px;*/
+/*    width: 270px;*/
+/*    height: auto;*/
+/*}*/
+
+.item-list4 {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    display: flex;
+}
+.item-list4 ul.item {
+    margin: 5px;
+    padding: 10px;
+}
+.item-list5{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 500px;
+    display: flex;
+    left: -25px;
+}
+
+.MS_prod_img {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+}
+
+.newPrd {
+    padding: 5px 14px;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: absolute;
+    top: -20px;
+    margin-left: 207px;
+
+}
+
+.newcou5 {
+    padding: 6px 10px;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 15px;
+    left: 19px;
+}
+.list_dlvy{
+    position: absolute;
+    top: 290px;
+    width: 250px;
+    height: 48px;
+}
+.list_dlvy img{
+    position: relative;
+    left: -3px;
+    max-width: 80px;
+    height: auto;
+}
+.name{
+    position: relative;
+    padding: 3px 0 13px;
+
+}
+
+.info {
+    padding: 3px 0 13px;
+    list-style: none;
+}
+.slider-container{
+    width: 270px;
+    height: 269px;
+    overflow: hidden;
+}
+.slider{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide{
+    width: 100%;
+    display: none;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.show{
+    display: block;
+}
+.item-image{
+    width: 270px;
+    height: 270px;
+    position: relative;
+    left: -35px;
+    padding: 0;
+    margin: 0;
+}

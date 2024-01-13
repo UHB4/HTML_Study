@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery.js"></script>
+    <script>
+        $(function (){
+            $(".btn1").mouseover(function (){
+                $(".btn1").parent().next()
+                    .css({"color":"red"})
+                $(".btn1").mouseout(function (){
+                    $(".btn1").parent().next()
+                        .css({"color":"blue"})
+                })
+            })
+        })
+        $(function (){
+            $(".btn2").css({"border":"2px solid black"})
+                .on({
+                    "click": function (){
+                        alert("헬로!");
+                    },
+
+                    "mouseover focus": function (){
+                        $(".btn2").parent().next()
+                            .css({"color":"#0f0"});
+                    }
+                })
+        })
+    </script>
+</head>
+<body>
+<p>
+    <button class = "btn1">PUSH</button>
+</p>
+<p>내용1</p>
+<p>
+    <button class = "btn2">PUSH2</button>
+</p>
+<p>내용2</p>
+</body>
+</html>

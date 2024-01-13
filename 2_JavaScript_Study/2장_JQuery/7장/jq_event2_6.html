@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title> 이벤트 </title>
+	<script src="js/jquery.js"></script>
+	<script>
+		/*
+		이벤트 위임 방식
+		특정 상황에서 이벤트를 제어(등록/해제)
+		 */
+		$(function(){
+			$(".btn_wrap").delegate(".btn_1.on",
+					"mouseover focus", function() {
+						alert("HELLO!");
+					});
+
+			$(".btn_1").addClass("on");
+
+		});
+	</script>
+</head>
+<body>
+<div id="wrap">
+	<p class="btn_wrap">
+		<button class="btn_1">버튼1</button>
+	</p>
+</div>
+</body>
+</html>

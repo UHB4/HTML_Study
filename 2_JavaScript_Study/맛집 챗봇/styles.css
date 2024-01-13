@@ -1,0 +1,96 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.chat-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-box {
+    width: 80%; /* 전체 화면의 80% 차지 */
+    max-width: 600px; /* 최대 너비 설정 */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.chat-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.chat-body {
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+
+.chat-message.user {
+    max-height: 400px;
+    max-width: 100px;
+    background-color: #ffffff;
+    color: black;
+    text-align: left;
+}
+
+.chat-message.bot {
+    border-radius: 10px;
+    padding: 0;
+    max-height: 400px;
+    max-width: 200px;
+    background-color: #bbbaba;
+    color: #333;
+    text-align: right; /* 텍스트를 오른쪽 정렬로 변경 */
+    margin-left: auto; /* 자동으로 왼쪽 여백을 늘려 오른쪽 정렬을 유지 */
+}
+.chat-icon{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.chat-icon img{
+    max-height: 30px;
+    max-width: 30px;
+    margin: auto;
+}
+
+
+.chat-footer {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#userInput {
+    flex: 1;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
