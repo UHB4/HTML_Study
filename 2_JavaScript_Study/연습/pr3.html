@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Scroll</title>
+    <style>
+        #scrollContainer {
+            height: 150px; /* 스크롤이 보일 영역의 높이 설정 */
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<button onclick="addText()">새로운 텍스트 상자 추가</button>
+<div id="scrollContainer"></div>
+
+<script>
+    function addText() {
+        const scrollContainer = document.getElementById('scrollContainer');
+        const newTextContainer = document.createElement('div');
+        newTextContainer.classList.add('text-container');
+        scrollContainer.appendChild(newTextContainer);
+
+        const text1= '새로운 텍스트 상자가 추가되었습니다. '; // 원하는 텍스트
+
+        newTextContainer.innerHTML = text1;
+
+        scrollContainer.scrollTop = scrollContainer.scrollHeight; // 스크롤을 아래로 이동
+    }
+</script>
+
+</body>
+</html>

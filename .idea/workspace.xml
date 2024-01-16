@@ -5,54 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b299a66c-8a50-4e49-beeb-4b996d3cbc8a" name="Changes" comment="1월13일">
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/가현_1.2/img/fb_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/가현_1.2/img/insta_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/가현_1.2/img/ytb_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/TBscript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/TBstyles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/TopBottoms.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/dukddak.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/fb_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/footer_bar_basket_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/footer_bar_heart_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/hoody1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/insta_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list 4_1.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list 4_1_2.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list 4_1_3.avif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list 4_2 f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list 4_2_s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list4_1 c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list4_1 f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list4_1 s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list4_2 t.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/power.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/ytb_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/kakaotalk/eae.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/kakaotalk/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/kakaotalk/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/images/power.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/연습/gpt1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/연습/pr1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/연습/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/연습/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/연습/pr2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/연습/pr3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/NewProduct.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/styles.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/chat_bot.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/chat_bot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +19,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -95,36 +51,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.01_if_1.html.executor": "Run",
-    "JavaScript Debug.02_else_1.html.executor": "Run",
-    "JavaScript Debug.03_elseif_1.html.executor": "Debug",
-    "JavaScript Debug.Quiz-3.html.executor": "Run",
-    "JavaScript Debug.switchQuiz-11.html.executor": "Run",
-    "JavaScript Debug.switchQuiz-4.html.executor": "Run",
-    "JavaScript Debug.switchQuiz-8.html.executor": "Run",
-    "JavaScript Debug.switchQuiz-9.html.executor": "Debug",
-    "JavaScript Debug.test_example.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/UHB/Project/2_WebProject/1_FrontEnd/2_JavaScript_Study/맛집 챗봇/images",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.01_if_1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.02_else_1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.03_elseif_1.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.Quiz-3.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.switchQuiz-11.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.switchQuiz-4.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.switchQuiz-8.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.switchQuiz-9.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.test_example.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/UHB/Project/2_WebProject/1_FrontEnd/2_JavaScript_Study/맛집 챗봇/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\맛집 챗봇\images" />
@@ -201,6 +157,7 @@
       <workItem from="1705130249597" duration="162000" />
       <workItem from="1705278102857" duration="27220000" />
       <workItem from="1705364361033" duration="28925000" />
+      <workItem from="1705406277754" duration="6332000" />
     </task>
     <task id="LOCAL-00001" summary="1월2일">
       <option name="closed" value="true" />

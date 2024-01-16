@@ -109,6 +109,7 @@
     .welcomeChatIcon img{
         width: 50px;
     }
+
     .inquiryButton {
         display: flex;
         align-items: center;
@@ -122,6 +123,7 @@
         border-radius: 20px;
         left: -20px;
         top: 50px;
+        cursor: pointer;
     }
     .homeButton a:hover{
         color: red;
@@ -192,6 +194,7 @@
         border-radius: 10px;
         overflow-y: auto;
         /*display: none;*/
+        display: none;
     }
     #goBackButton1 img{
         width: 30px;
@@ -235,14 +238,16 @@
         top: 60px;
         right: 50px;
     }
-    .cb2MessageContent{
+    #textContainer {
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        text-align: left;
         width: 300px;
-        height: 200px;
-        background-color: red;
-        border-radius: 15px;
-        position: relative;
-        left: 50px;
-
+        height: 300px;
+        padding: 10px;
     }
     .messageAction1{
         position: relative;
@@ -263,11 +268,46 @@
     }
     .messageAction1_1{
         position: relative;
-        top: 35px;
-        height: 100px;
+        top: 15px;
+        height: 50px;
         background-color: red;
+        text-align: right;
+        justify-content: center;
+        margin: 10px;
+    }
+    #returnOption{
+        padding: 9px 13px;
+        border-radius: 10px;
+    }
+    #refundOption{
+        padding: 9px 13px;
+        border-radius: 10px;
+    }
+    #deliverOption{
+        padding: 9px 13px;
+        border-radius: 10px;
     }
 
+    #textContainer {
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 24px;
+        border: 1px solid #ccc;
+        width: 300px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    #textContainer2{
+        /*overflow-y: scroll;*/
+        white-space: nowrap;
+        font-size: 24px;
+        border: 1px solid #ccc;
+        width: 300px;
+        padding: 10px;
+        margin-bottom: 10px;
+
+    }
 
 
 
@@ -364,15 +404,18 @@
                 </div>
             <div class="welcomeChatMessageBot">
                 안녕하세요!<br>
-                dkekekfkejfe;<br>
-                dkfejlfekmfe.fm<br>
-                dkfjelrfme.r,me<br>
+                내셔널지오그라프;<br>
+                어쩌구저쩌구어쩌구<br>
+                어쩌구저쩌구어저쭈구<br>
                 dkfjeklrme,lrm.,fm.<br>
                 afkeklrfme.lfme.,ef,<br>
                 dkejlrkjere,mrf,tmetma<br>
                 dklfe.,rme.,rmet.,me.t<br>
                 ekrelkrmfs.,rme.rfem<br>
-                <div class="inquiryButton">
+                ㅇㅁㄷㅇㄹㄷㄻㄷㄹㄷ<br>
+                dfaefefeafetet<br>
+                dafereefett<br>
+                <div class="inquiryButton" onclick="loadText()">
                     <a  href="#" id ="inquiryLink">문의하기</a></div>
             </div>
 
@@ -409,14 +452,12 @@
             <!-- chatBox2의 내용을 추가하세요 (필요에 따라) -->
         </div>
         <div class="timeDevide">
-            <div class="cb2MessageContent">sfdafdadfdsaf<br>
-            dfadfeefe<br>
-            dfdafefefe<br>
-            dfaereretetetaet<br>
-            dfdaeerere<br></div>
+
+            <div id="textContainer"></div>
+
             <div class="messageAction1">
                 <button id="beforeDelivery">배송 전</button>
-                <button id="afterDelivery">배송 후</button>
+                <button onclick="addText()" id="afterDelivery">배송 후</button>
             </div>
             <div class="messageAction1_1" style="display: none;">
                 <button id="returnOption">반품 문의</button>
@@ -424,6 +465,7 @@
                 <button id="deliverOption">배송 문의</button>
             </div>
         </div>
+        <div id="textContainer2"></div>
 
 </div><!-- chatBox2 끝 -->
 
@@ -452,6 +494,8 @@
     document.getElementById('inquiryLink').addEventListener('click', function () {
         // chatBox1 제거
         document.getElementById('chatBox1').remove();
+        document.get
+
 
         // chatBox2 추가 및 표시
         var chatBox2 = document.getElementById('chatBox2');
@@ -469,7 +513,7 @@
 
     document.getElementById('chatLink').addEventListener('click', function () {
         // chatBox1 제거
-        document.getElementById('chatBox1').remove();
+        document.getElementById('chatBox2').remove();
 
         // chatBox2 추가 및 표시
         var chatBox3 = document.getElementById('chatBox3');
@@ -486,6 +530,49 @@
         document.querySelector('.messageAction1_1').style.display = 'flex';
     });
 
+    document.addEventListener('DOMContentLoaded',function (){
+        const textContainer = document.getElementById('textContainer');
+        const text = '안녕하세요!<br>이 텍스트는<br>왼쪽에서 오른쪽으로 ' +
+            '<br>ndfaereretetetaet<br></br>ndfdaeerere\n';
+        let index = 0;
+
+        function animateText() {
+            textContainer.innerHTML = text.slice(0, index);
+            index++;
+
+            if (index <= text.length) {
+                setTimeout(animateText, 30); // Delay between each character (adjust as needed)
+            }
+
+        }
+             animateText();
+
+        });
+    function addText() {
+        const scrollContainer = document.getElementById('textContainer2');
+        const newTextContainer = document.createElement('div');
+        newTextContainer.classList.add('text-container');
+        scrollContainer.appendChild(newTextContainer);
+
+        const text1= '새로운 텍스트<br> 상자가 추가되었습니다.<br>라랄라 '; // 원하는 텍스트
+
+        newTextContainer.innerHTML = text1;
+
+        // textContainer2.scrollTop = textContainer2.scrollHeight; // 스크롤을 아래로 이동
+    }
+
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        // 버튼 요소를 가져오기
+        var scrollButton = document.getElementById('afterDelivery');
+
+        // 버튼 클릭 시 화면 최하단으로 스크롤
+        scrollButton.addEventListener('click', function () {
+            // document.body 또는 document.documentElement을 사용하여 스크롤
+            document.body.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' });
+        });
+    });
 </script>
 
 

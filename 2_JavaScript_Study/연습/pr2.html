@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Animation</title>
+    <style>
+        #textContainer {
+            overflow: hidden;
+            white-space: nowrap;
+            font-size: 24px;
+            border: 1px solid #ccc;
+            width: 300px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="textContainer"></div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const textContainer = document.getElementById('textContainer');
+        const text = '안녕하세요! 이 텍스트는 왼쪽에서 오른쪽으로 나오는 효과를 갖습니다.';
+        let index = 0;
+
+        function animateText() {
+            textContainer.textContent = text.slice(0, index);
+            index++;
+
+            if (index <= text.length) {
+                setTimeout(animateText, 30); // 100ms 간격으로 한 글자씩 출력
+            }
+        }
+
+        animateText();
+    });
+</script>
+
+</body>
+</html>
