@@ -4,45 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b299a66c-8a50-4e49-beeb-4b996d3cbc8a" name="Changes" comment="1월10일">
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/10장/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/7장/event_last.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/7장/event_last_test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/7장/jq_event1_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/7장/jq_event1_5_test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/7장/jq_event2_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/7장/jq_event2_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/7장/jq_event2_5_test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/7장/jq_event2_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/7장/jq_event2_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/7장/jq_event2_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/7장/jq_event2_8_test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/7장/jq_event_test1_a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/7장/practice1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/8장/jquery_effect_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/8장/jquery_effect_1_test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/8장/jquery_effect_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/8장/jquery_effect_2_test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/8장/jquery_effect_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/8장/jquery_effect_3_test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/8장/jquery_effect_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/8장/jquery_effect_4_test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/8장/jquery_effect_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/8장/jquery_effect_5_test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/8장/jquery_effect_move.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/8장/jquery_effect_move_test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/8장/jquery_effect_test1_b.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/8장/jquery_effect_test2_b.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/2장_JQuery/8장/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/3장_실전예제/자바스크립트챗봇_프로토타입/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/NewProduct.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/chat_bot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/responses.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/styles.css" afterDir="false" />
+    <list default="true" id="b299a66c-8a50-4e49-beeb-4b996d3cbc8a" name="Changes" comment="1월13일">
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/가현_1.2/img/fb_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/가현_1.2/img/insta_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/가현_1.2/img/ytb_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/TBscript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/TBstyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/TopBottoms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/dukddak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/fb_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/footer_bar_basket_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/footer_bar_heart_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/hoody1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/image9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/insta_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list 4_1.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list 4_1_2.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list 4_1_3.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list 4_2 f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list 4_2_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list4_1 c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list4_1 f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list4_1 s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/list4_2 t.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/power.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/여진/images/ytb_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/kakaotalk/eae.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/kakaotalk/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/kakaotalk/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/images/power.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/연습/gpt1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/연습/pr1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/연습/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/연습/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/NewProduct.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/ProjectChatBot/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/chat_bot.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/chat_bot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +112,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/UHB/Project/2_WebProject/1_FrontEnd/2_JavaScript_Study/ProjectChatBot/js",
+    "last_opened_file_path": "C:/UHB/Project/2_WebProject/1_FrontEnd/2_JavaScript_Study/맛집 챗봇/images",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -117,18 +127,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\맛집 챗봇\images" />
+      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\ProjectChatBot\여진" />
+      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\ProjectChatBot\가현_1.2\img" />
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\ProjectChatBot\js" />
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\3장_실전예제\js" />
-      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\2장_JQuery\10장\js" />
-      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\2장_JQuery\8장\js" />
-      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\1_JavaScript\3장_제어문" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\ProjectChatBot" />
+      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\ProjectChatBot\현빈\images" />
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\ProjectChatBot\images" />
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\3장_실전예제\자바스크립트챗봇_프로토타입" />
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\맛집 챗봇" />
-      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\맛집 챗봇\images" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.switchQuiz-11.html">
@@ -188,6 +198,9 @@
       <workItem from="1704932940364" duration="29073000" />
       <workItem from="1705019247467" duration="28103000" />
       <workItem from="1705114467432" duration="15658000" />
+      <workItem from="1705130249597" duration="162000" />
+      <workItem from="1705278102857" duration="27220000" />
+      <workItem from="1705364361033" duration="28925000" />
     </task>
     <task id="LOCAL-00001" summary="1월2일">
       <option name="closed" value="true" />
@@ -277,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704855695544</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1월13일">
+      <option name="closed" value="true" />
+      <created>1705130384694</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705130384694</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +311,8 @@
     <MESSAGE value="1월5일" />
     <MESSAGE value="1더123ㅏㅣ" />
     <MESSAGE value="1월10일" />
-    <option name="LAST_COMMIT_MESSAGE" value="1월10일" />
+    <MESSAGE value="1월13일" />
+    <option name="LAST_COMMIT_MESSAGE" value="1월13일" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

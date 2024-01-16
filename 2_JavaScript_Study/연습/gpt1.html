@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Mall Chatbot</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    #chat-container {
+      width: 300px;
+      margin: 50px auto;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    #chat-messages {
+      height: 200px;
+      overflow-y: scroll;
+      padding: 10px;
+      background-color: #fff;
+    }
+
+    #user-options {
+      padding: 10px;
+      background-color: #f9f9f9;
+    }
+
+    .option-button {
+      margin: 5px;
+      padding: 8px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #user-input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    #user-submit {
+      width: 100%;
+      padding: 8px;
+      margin-top: 10px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div id="chat-container">
+  <div id="chat-messages"></div>
+  <div id="user-options"></div>
+  <input type="text" id="user-input" placeholder="명령을 입력하세요">
+  <button id="user-submit">입력</button>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+  $(document).ready(function () {
+    // 사용자 입력 버튼 클릭 이벤트
+    $("#user-submit").click(function () {
+      var userInput = $("#user-input").val();
+      handleUserInput(userInput);
+    });
+  });
+
+  function showMessage(message) {
+    $("#chat-messages").append('<p>' + message + '</p>');
+    $("#chat-messages").scrollTop($("#chat-messages")[0].scrollHeight);
+  }
+
+  function showOptions(options) {
+    $("#user-options").empty();
+    options.forEach(function (option) {
+      $("#user-options").append('<button class="option-button">' + option + '</button>');
+    });
+
+    $(".option-button").click(function () {
+      handleUserInput($(this).text());
+    });
+  }
+
+  function handleUserInput(input) {
+    showMessage('사용자: ' + input);
+
+    // 간단한 예시로 구현
+    if (input === '상품 조회') {
+      showMessage('쇼핑몰 상품 목록을 표시합니다.');
+      // TODO: 상품 조회 로직 추가
+      showOptions(["전체 상품 보기", "카테고리별 상품 보기", "검색"]);
+    } else if (input === '장바구니 확인') {
+      showMessage('장바구니에 담긴 상품을 확인합니다.');
+      // TODO: 장바구니 확인 로직 추가
+      showOptions(["장바구니 비우기", "상품 구매하기", "계속 쇼핑하기"]);
+    } else if (input === '고객센터 연결') {
+      showMessage('고객센터로 연결합니다.');
+      // TODO: 고객센터 연결 로직 추가
+      showOptions(["상품 문의", "주문 및 결제 문의", "기타 문의"]);
+    } else {
+      showMessage('죄송합니다. 이해할 수 없는 명령입니다.');
+    }
+
+    // 입력 텍스트 박스 초기화
+    $("#user-input").val('');
+  }
+</script>
+
+</body>
+</html>

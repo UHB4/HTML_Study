@@ -3,44 +3,497 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>강남 맛집 챗봇</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>chatBot</title>
+<!--    <link rel="stylesheet" href="styles.css">-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
 </head>
+<style>
+    *{
+        list-style: none;
+        text-decoration: none;
+    }
+    body {
+        font-family: 'Nanum Gothic', sans-serif;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+    }
+
+    .mainChatContainer {
+        /*display: flex;*/
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: 400px;
+
+    }
+
+    .chatBox1{
+        width: 400PX; /* 전체 화면의 80% 차지 */
+        /*max-width: 700px; !* 최대 너비 설정 *!*/
+        height: 600px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+
+    #HomeHeader {
+        width: 100%;
+        background: linear-gradient(rgb(0, 0, 0, 0.8),  rgb(0, 0, 0, 0.4)), url("images/power.jpg")fixed;
+        color: #fff;
+        padding: 10px;
+        text-align: left;
+        font-size: 10px;
+        height: 110px;
+    }
+
+
+    .HomeBody {
+        padding: 10px;
+        max-height: 300px;
+        overflow-y: auto;
+        background-color: #ffffff;
+    }
+
+    .chatMessage {
+        margin-bottom: 10px;
+        padding: 8px;
+        border-radius: 5px;
+
+    }
+    .chatBody{
+        width: 300px;
+        height: 400px;
+    }
+
+    .chatMessageUser {
+        max-height: 400px;
+        max-width: 100px;
+        background-color: #ffffff;
+        color: black;
+        text-align: left;
+    }
+    .welcomeChatIcTxt{
+        display: flex;
+        background-color: #1e1515;
+        border-radius: 20px;
+        padding: 10px;
+
+    }
+
+    .welcomeChatMessageBot {
+        border-radius: 10px;
+        padding: 0;
+        height: 180px;
+        width: 250px;
+        /*background-color: #1e1515;*/
+        color: #ffffff;
+        /*text-align: left;*/
+
+    }
+
+    .welcomeChatIcon{
+        background-color: #1e1515;
+        margin: 0;
+        padding: 0;
+        width: 50px;
+        height: 270px;
+
+
+    }
+    .welcomeChatIcon img{
+        width: 50px;
+    }
+    .inquiryButton {
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 280px;
+        height: 30px;
+        justify-content: center;
+        padding: 5px;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        left: -20px;
+        top: 50px;
+    }
+    .homeButton a:hover{
+        color: red;
+    }
+    .homeButton a:visited{
+        color: black;
+
+
+    }
+    .user_choice{
+        width: 400PX;
+        height: 80px;
+        background-color: #ffffff;
+        position: relative;
+        top: 40px;
+        left: 50px;
+    }
+    .user_choice ul{
+        position: relative;
+        display: flex;
+        /*margin: 50px;*/
+        /*width: 80%;*/
+        padding: 0;
+    }
+    .user_choice ul li{
+        display: flex;
+        margin-left:140px;
+        padding: 0;
+        position: relative;
+        left: -150px;
+    }
+    .user_choice ul li img{
+        position: relative;
+        left: -100px;
+        width: 30px;
+        height: 30px;
+        color: white;
+    }
+    .user_choice ul li a{
+        color: #1e1515;
+        position: relative;
+        left: 150px;
+
+
+        /*display: inline-block;*/
+        /*margin-left: 50px;*/
+    }
+    .home1{
+        color: #1e1515;
+        position: absolute;
+        top: 50px;
+        left: 47px;
+    }
+    .home2{
+        color: #1e1515;
+        position: absolute;
+        top: 50px;
+        left: 210px;
+
+    }
+
+    /*chatbox2 작성은 여기서 부터-------------------------------*/
+    #chatBox2 {
+        width: 400px; /* 전체 화면의 80% 차지 */
+        height: 600px;
+        background-color:#efefef;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        overflow-y: auto;
+        /*display: none;*/
+    }
+    #goBackButton1 img{
+        width: 30px;
+        height: 30px;
+        padding: 0;
+    }
+    .headerCb2{
+        display: flex;
+        background-color:#333435;
+        color: white;
+    }
+
+    .cb2Icon{
+        width: 40px;
+        height: 40px;
+    }
+    .cb2title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 40px;
+    }
+    .cb2Channel{
+        display: flex;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cb2BigIcon{
+        border: 2px solid black;
+        border-radius: 30px;
+        width: 80px;
+        height: 80px;
+        position: relative;
+        left: 100px;
+    }
+    .cb2ChannelTitle{
+        position: relative;
+        top: 60px;
+        right: 50px;
+    }
+    .cb2MessageContent{
+        width: 300px;
+        height: 200px;
+        background-color: red;
+        border-radius: 15px;
+        position: relative;
+        left: 50px;
+
+    }
+    .messageAction1{
+        position: relative;
+        top: 15px;
+        height: 100px;
+        background-color: #ffffff;
+        text-align: right;
+        justify-content: center;
+    }
+    #beforeDelivery{
+        padding: 9px 13px;
+        border-radius: 10px;
+
+    }
+    #afterDelivery{
+        padding: 9px 13px;
+        border-radius: 10px;
+    }
+    .messageAction1_1{
+        position: relative;
+        top: 35px;
+        height: 100px;
+        background-color: red;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*chatbox2 작성은 여기까지-------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+    #chatBox3 {
+        width: 400px; /* 전체 화면의 80% 차지 */
+        height: 600px;
+        background-color: #d04747;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        overflow: hidden;
+        display: none;
+    }
+
+
+
+
+
+    /*.chat-icon img{*/
+    /*    max-height: 30px;*/
+    /*    max-width: 30px;*/
+    /*    margin: auto;*/
+    /*}*/
+
+
+    /*.chat-footer {*/
+    /*    padding: 10px;*/
+    /*    display: flex;*/
+    /*    align-items: center;*/
+    /*    position: relative;*/
+    /*    top: 250px;*/
+    /*}*/
+
+    /*#userInput {*/
+    /*    flex: 1;*/
+    /*    padding: 5px;*/
+    /*    border-radius: 5px;*/
+    /*    border: 1px solid #ccc;*/
+    /*    margin-right: 10px;*/
+    /*}*/
+
+    /*button {*/
+    /*    padding: 8px;*/
+    /*    background-color: #1e1515;*/
+    /*    color: #fff;*/
+    /*    border: none;*/
+    /*    border-radius: 5px;*/
+    /*    cursor: pointer;*/
+    /*}*/
+</style>
 <body>
 
-<div class="chat-container">
-    <div class="chat-box" id="chatBox">
-        <div class="chat-header">
-            강남 맛집 챗봇
-        </div>
-        <div class="chat-body" id="chatBody">
-            <div class="chat-message body">
-                <div class="chat-icon">
-                    <img src="images/chat_icon.jpg" alt="채팅 아이콘">
-                </div>
-            <div class="chat-message bot">안녕하세요! 강남 맛집을 알려드릴게요.
+<div class="mainChatContainer">
+    <div class="chatBox1" id="chatBox1">
+        <div id="HomeHeader" class="section" >
 
+            <h1 class = "brandTitle">NATIONAL GEOGRAPH</h1>
+            <span>운영시간 보기</span>
         </div>
-        </div>
-            <!-- 초기 챗봇 메시지 -->
-        </div>
-        <div class="chat_icon">
-        <div class="chat-footer">
-            <div class="chat-icon">
-                <p><img src="images/chat_icon.jpg" alt="채팅 아이콘"></p>
+        <div class="HomeBody" id="HomeBody">
+            <div class="chatMessageBody">
+                <div class="welcomeChatIcTxt">
+                <div class="welcomeChatIcon">
+                    <img src="images/NG_icon.jpg" alt="웰컴 아이콘">
+                </div>
+            <div class="welcomeChatMessageBot">
+                안녕하세요!<br>
+                dkekekfkejfe;<br>
+                dkfejlfekmfe.fm<br>
+                dkfjelrfme.r,me<br>
+                dkfjeklrme,lrm.,fm.<br>
+                afkeklrfme.lfme.,ef,<br>
+                dkejlrkjere,mrf,tmetma<br>
+                dklfe.,rme.,rmet.,me.t<br>
+                ekrelkrmfs.,rme.rfem<br>
+                <div class="inquiryButton">
+                    <a  href="#" id ="inquiryLink">문의하기</a></div>
             </div>
 
-            <input type="text" id="userInput" placeholder="메시지를 입력하세요...">
-            <button onclick="sendMessage()">전송</button>
         </div>
         </div>
+
+        </div>
+        <nav class="user_choice">
+            <ul>
+                <li><a href="#" data-section="chatBox"><img src ="images/home_icon.jpg" alt ="홈 이미지"></a></li>
+                <a href="#"><span class="home1">홈></span></a>
+                <li><a href="#" data-section="chat_section">
+                    <img src ="images/bottom_chat_icon.png" alt ="대화 이미지"></a></li>
+                <a href="#" id ="chatLink"><span class="home2">대화</span></a>
+            </ul>
+        </nav>
+    </div> <!-- chatBox1끝 -->
+
+
+
+
+    <div class="chatBox2" id="chatBox2"><!-- chatBox2 시작 -->
+        <header class="headerCb2">
+            <button id="goBackButton1">
+                <img src="images/goBack.png" alt="뒤로가기">
+            </button>
+            <img class= "cb2Icon" src="images/NG_icon.jpg" alt="아이콘">
+            <div class="cb2title">NATIONAL GEOGRAPH</div>
+
+        </header>
+        <div class="cb2Channel">
+            <img class="cb2BigIcon" src="images/NG_icon.jpg" alt="빅아이콘">
+            <div class="cb2ChannelTitle">NATIONAL GEOGRAPH에 문의하기</div>
+            <!-- chatBox2의 내용을 추가하세요 (필요에 따라) -->
+        </div>
+        <div class="timeDevide">
+            <div class="cb2MessageContent">sfdafdadfdsaf<br>
+            dfadfeefe<br>
+            dfdafefefe<br>
+            dfaereretetetaet<br>
+            dfdaeerere<br></div>
+            <div class="messageAction1">
+                <button id="beforeDelivery">배송 전</button>
+                <button id="afterDelivery">배송 후</button>
+            </div>
+            <div class="messageAction1_1" style="display: none;">
+                <button id="returnOption">반품 문의</button>
+                <button id="refundOption">환불 문의</button>
+                <button id="deliverOption">배송 문의</button>
+            </div>
+        </div>
+
+</div><!-- chatBox2 끝 -->
+
+
+
+
+
+
+
+
+    <div class="chatBox3" id="chatBox3">
+        <p>dekjekfjef</p>
+        <button id="goBackButton2"><</button>
     </div>
 </div>
+<script>
+    $(document).ready(function () {
+        $("#inquiryButton").click(function () {
+            $("#chatBox").toggle();
+            $("#chatBox2").toggle();
+        });
+    });
+
+</script>
+<script>
+    document.getElementById('inquiryLink').addEventListener('click', function () {
+        // chatBox1 제거
+        document.getElementById('chatBox1').remove();
+
+        // chatBox2 추가 및 표시
+        var chatBox2 = document.getElementById('chatBox2');
+        chatBox2.style.display = 'block';
+
+    });
+
+    document.getElementById('goBackButton1').addEventListener('click', function () {
+        // 페이지를 다시 로드하여 초기화
+        location.reload();
+    });
+
+
+
+
+    document.getElementById('chatLink').addEventListener('click', function () {
+        // chatBox1 제거
+        document.getElementById('chatBox1').remove();
+
+        // chatBox2 추가 및 표시
+        var chatBox3 = document.getElementById('chatBox3');
+        chatBox3.style.display = 'block';
+        document.getElementById('goBackButton2').addEventListener('click', function () {
+            // 페이지를 다시 로드하여 초기화
+            location.reload();
+        });
+
+    });
+    document.getElementById('afterDelivery').addEventListener('click', function () {
+        // messageAction1 숨기고 messageAction1_1 표시
+        document.querySelector('.messageAction1').style.display = 'none';
+        document.querySelector('.messageAction1_1').style.display = 'flex';
+    });
+
+</script>
+
+
+
+
+
 
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script src="script.js"></script>
+<!--<script src="script.js"></script>-->
 </body>
 </html>

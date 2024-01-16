@@ -1,3 +1,7 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
 body {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 14px;
@@ -6,91 +10,212 @@ body {
     background-color: #f2f2f2;
 }
 
-.chat-container {
-    display: flex;
+.mainChatContainer {
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 500px;
+    width: 400px;
+
 }
 
-.chat-box {
+.chatBox {
     width: 80%; /* 전체 화면의 80% 차지 */
     max-width: 600px; /* 최대 너비 설정 */
+    height: 500px;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 10px;
     overflow: hidden;
+    display: none;
 }
 
-.chat-header {
-    background-color: #3498db;
+
+#HomeHeader {
+    width: 100%;
+    background: linear-gradient(rgb(0, 0, 0, 0.8),  rgb(0, 0, 0, 0.4)), url("images/power.jpg")fixed;
     color: #fff;
     padding: 10px;
-    text-align: center;
+    text-align: left;
+    font-size: 10px;
+    height: 110px;
 }
 
-.chat-body {
+
+.HomeBody {
     padding: 10px;
     max-height: 300px;
     overflow-y: auto;
+    background-color: #ffffff;
 }
 
-.chat-message {
+.chatMessage {
     margin-bottom: 10px;
     padding: 8px;
     border-radius: 5px;
 
 }
+.chatBody{
+    width: 300px;
+    height: 400px;
+}
 
-.chat-message.user {
+.chatMessageUser {
     max-height: 400px;
     max-width: 100px;
     background-color: #ffffff;
     color: black;
     text-align: left;
 }
+.welcomeChatIcTxt{
+    display: flex;
+    background-color: #1e1515;
+    border-radius: 20px;
+    padding: 10px;
 
-.chat-message.bot {
+}
+
+.welcomeChatMessageBot {
     border-radius: 10px;
     padding: 0;
-    max-height: 400px;
-    max-width: 200px;
-    background-color: #bbbaba;
-    color: #333;
-    text-align: right; /* 텍스트를 오른쪽 정렬로 변경 */
-    margin-left: auto; /* 자동으로 왼쪽 여백을 늘려 오른쪽 정렬을 유지 */
+    height: 180px;
+    width: 250px;
+    /*background-color: #1e1515;*/
+    color: #ffffff;
+    /*text-align: left;*/
+
 }
-.chat-icon{
-    background-color: #ffffff;
+
+.welcomeChatIcon{
+    background-color: #1e1515;
     margin: 0;
     padding: 0;
-}
-.chat-icon img{
-    max-height: 30px;
-    max-width: 30px;
-    margin: auto;
-}
+    width: 50px;
+    height: 270px;
 
 
-.chat-footer {
-    padding: 10px;
+}
+.welcomeChatIcon img{
+    width: 50px;
+}
+#inquiryButton {
     display: flex;
     align-items: center;
-}
-
-#userInput {
-    flex: 1;
+    position: relative;
+    width: 250px;
+    height: 30px;
+    justify-content: center;
     padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin-right: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    left: -45px;
+    top: 30px;
+}
+.homeButton a:hover{
+    color: red;
+}
+.homeButton a:visited{
+    color: black;
+
+
+}
+.user_choice{
+    width: 80%;
+    height: 80px;
+    background-color: #ffffff;
+    position: relative;
+    top: -55px;
+}
+.user_choice ul{
+    position: relative;
+    display: flex;
+    /*margin: 50px;*/
+    /*width: 80%;*/
+    padding: 0;
+}
+.user_choice ul li{
+    display: flex;
+    margin-left:140px;
+    padding: 0;
+    position: relative;
+    left: -150px;
+}
+.user_choice ul li img{
+    position: relative;
+    left: -100px;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.user_choice ul li a{
+    color: #1e1515;
+    position: relative;
+    left: 150px;
+
+
+    /*display: inline-block;*/
+    /*margin-left: 50px;*/
+}
+.home1{
+    color: #1e1515;
+    position: absolute;
+    top: 50px;
+    left: 47px;
+}
+.home2{
+    color: #1e1515;
+    position: absolute;
+    top: 50px;
+    left: 210px;
+
 }
 
-button {
-    padding: 8px;
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+
+#chatBox2 {
+    width: 80%; /* 전체 화면의 80% 차지 */
+    max-width: 600px; /* 최대 너비 설정 */
+    height: 500px;
+    background-color: #1e1515;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    display: none;
 }
+
+
+
+
+
+
+/*.chat-icon img{*/
+/*    max-height: 30px;*/
+/*    max-width: 30px;*/
+/*    margin: auto;*/
+/*}*/
+
+
+/*.chat-footer {*/
+/*    padding: 10px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    position: relative;*/
+/*    top: 250px;*/
+/*}*/
+
+/*#userInput {*/
+/*    flex: 1;*/
+/*    padding: 5px;*/
+/*    border-radius: 5px;*/
+/*    border: 1px solid #ccc;*/
+/*    margin-right: 10px;*/
+/*}*/
+
+/*button {*/
+/*    padding: 8px;*/
+/*    background-color: #1e1515;*/
+/*    color: #fff;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*}*/
