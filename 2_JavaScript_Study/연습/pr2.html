@@ -3,38 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text Animation</title>
+    <title>Reset chatBox2</title>
     <style>
-        #textContainer {
-            overflow: hidden;
-            white-space: nowrap;
-            font-size: 24px;
+        /* 스타일링을 위한 예시 CSS */
+        #chatBox2 {
             border: 1px solid #ccc;
-            width: 300px;
             padding: 10px;
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
 
-<div id="textContainer"></div>
+<!-- chatBox2를 감싸는 부모 요소 -->
+<div id="chatBox2Container">
+    <div id="chatBox2">
+        <!-- chatBox2의 초기 내용 -->
+        채팅 내용 초기 상태
+    </div>
+</div>
+
+<!-- backToFirst 버튼 -->
+<button id="backToFirst">Back to First</button>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const textContainer = document.getElementById('textContainer');
-        const text = '안녕하세요! 이 텍스트는 왼쪽에서 오른쪽으로 나오는 효과를 갖습니다.';
-        let index = 0;
+    // chatBox2 초기 내용을 저장하는 변수
+    var initialChatBox2Content = document.getElementById('chatBox2').innerHTML;
 
-        function animateText() {
-            textContainer.textContent = text.slice(0, index);
-            index++;
-
-            if (index <= text.length) {
-                setTimeout(animateText, 30); // 100ms 간격으로 한 글자씩 출력
-            }
-        }
-
-        animateText();
+    // backToFirst 버튼 클릭 시 chatBox2를 초기 내용으로 리셋하는 함수
+    document.getElementById('backToFirst').addEventListener('click', function() {
+        // chatBox2의 내용을 초기 내용으로 복원
+        document.getElementById('chatBox2').innerHTML = initialChatBox2Content;
     });
 </script>
 

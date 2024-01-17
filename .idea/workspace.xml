@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b299a66c-8a50-4e49-beeb-4b996d3cbc8a" name="Changes" comment="1월13일">
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/연습/pr2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/연습/pr3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/images/NG_icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/images/bottom_chat_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/images/chat_icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/images/goBack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/images/home_icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_JavaScript_Study/연습/인풋박스.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/chat_bot.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_JavaScript_Study/맛집 챗봇/chat_bot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_JavaScript_Study/연습/pr2.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_JavaScript_Study/연습/pr2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,43 +56,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.01_if_1.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.02_else_1.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.03_elseif_1.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.Quiz-3.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.switchQuiz-11.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.switchQuiz-4.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.switchQuiz-8.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.switchQuiz-9.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.test_example.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/UHB/Project/2_WebProject/1_FrontEnd/2_JavaScript_Study/맛집 챗봇/images&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.01_if_1.html.executor": "Run",
+    "JavaScript Debug.02_else_1.html.executor": "Run",
+    "JavaScript Debug.03_elseif_1.html.executor": "Debug",
+    "JavaScript Debug.Quiz-3.html.executor": "Run",
+    "JavaScript Debug.switchQuiz-11.html.executor": "Run",
+    "JavaScript Debug.switchQuiz-4.html.executor": "Run",
+    "JavaScript Debug.switchQuiz-8.html.executor": "Run",
+    "JavaScript Debug.switchQuiz-9.html.executor": "Debug",
+    "JavaScript Debug.test_example.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/New0117/2_JavaScript_Study/맛집 챗봇",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\New0117\2_JavaScript_Study\맛집 챗봇" />
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\맛집 챗봇\images" />
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\ProjectChatBot\여진" />
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\ProjectChatBot\가현_1.2\img" />
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\ProjectChatBot\js" />
-      <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\3장_실전예제\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\UHB\Project\2_WebProject\1_FrontEnd\2_JavaScript_Study\ProjectChatBot" />
@@ -158,6 +163,7 @@
       <workItem from="1705278102857" duration="27220000" />
       <workItem from="1705364361033" duration="28925000" />
       <workItem from="1705406277754" duration="6332000" />
+      <workItem from="1705449948482" duration="21123000" />
     </task>
     <task id="LOCAL-00001" summary="1월2일">
       <option name="closed" value="true" />

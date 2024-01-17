@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            text-decoration: none;
+            border: 1px solid black;
+            width: 300px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #name{
+            position: relative;
+            top: -8px;
+            left: 2px;
+        }
+        .inputName{
+            border: 1px solid;
+            border-radius: 10px;
+            width: 200px;
+            height: 30px;
+        }
+
+        .phoneNumBox{
+            position: relative;
+            top: 13px;
+        }
+        #num{
+            position: relative;
+            top: -8px;
+            left: 2px;
+        }
+        .inputNum{
+            border: 1px solid;
+            border-radius: 10px;
+            width: 200px;
+            height: 30px;
+        }
+        #save{
+            border-radius: 10px;
+            width: 200px;
+            height: 30px;
+            position: relative;
+            top: 25px;
+        }
+    </style>
+</head>
+<body>
+<form class="inputBox">
+    <div class="nameBox">
+        <label id="name">성함</label>
+        <div class="textField1">
+            <input type="text" class="inputName" placeholder="입력하세요">
+        </div>
+    </div>
+    <div class="phoneNumBox">
+        <label id="num">전화번호</label>
+        <div class="textField2">
+            <input type="text" class="inputNum" placeholder="입력하세요">
+        </div>
+    </div>
+    <button id="save">저장</button>
+</form>
+</body>
+</html>
