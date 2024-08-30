@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b299a66c-8a50-4e49-beeb-4b996d3cbc8a" name="Changes" comment="1월13일">
-      <change afterPath="$PROJECT_DIR$/미세먼지.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="b299a66c-8a50-4e49-beeb-4b996d3cbc8a" name="Changes" comment="1월13일" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +155,7 @@
       <workItem from="1705364361033" duration="28925000" />
       <workItem from="1705406277754" duration="6332000" />
       <workItem from="1705449948482" duration="21123000" />
-      <workItem from="1724953129310" duration="348000" />
+      <workItem from="1724953129310" duration="479000" />
     </task>
     <task id="LOCAL-00001" summary="1월2일">
       <option name="closed" value="true" />
